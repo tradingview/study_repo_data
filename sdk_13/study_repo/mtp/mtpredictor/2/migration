@@ -1,0 +1,1 @@
+{"pkgName":"mtp-mtpredictor","versFrom":"1","versTo":"2","studyMigrations":[{"studyId":"mtp_mainanalysis@mtp-mtpredictor","rules":[{"type":"inputRemoved","inputId":"topPct"},{"type":"inputRemoved","inputId":"bottomPct"},{"type":"inputRemoved","inputId":"kLength"}]}]}

@@ -1,0 +1,1 @@
+{"pkgName":"tv-basicstudies","versFrom":"33","versTo":"33.1","studyMigrations":[{"studyId":"Stochastic@tv-basicstudies","rules":[{"type":"inputRemoved","inputId":"arg_d"},{"type":"inputRemoved","inputId":"arg_k"},{"type":"inputRemoved","inputId":"arg_len"}]}]}
