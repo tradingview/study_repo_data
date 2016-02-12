@@ -1,1 +1,1 @@
-[{"pkgName":"tv-basicstudies","studyMigrations":[{"rules":[{"action":"resetToDefVal","defVal":2,"inputId":"multiplier","inputType":"float","type":"inputChangedType"}],"studyId":"VSTOP@tv-basicstudies"}],"versFrom":"8","versTo":"9"}]
+["{\"pkgName\":\"tv-basicstudies\",\"versFrom\":\"8\",\"versTo\":\"9\",\"studyMigrations\":[{\"studyId\":\"VSTOP@tv-basicstudies\",\"rules\":[{\"type\":\"inputChangedType\",\"inputId\":\"multiplier\",\"action\":\"resetToDefVal\",\"defVal\":2,\"inputType\":\"float\"}]}]}"]

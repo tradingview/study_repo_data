@@ -1,1 +1,1 @@
-[]
+["{\"pkgName\":\"tv-basicstudies\",\"versFrom\":\"8\",\"versTo\":\"9\",\"studyMigrations\":[{\"studyId\":\"VSTOP@tv-basicstudies\",\"rules\":[{\"type\":\"inputChangedType\",\"inputId\":\"multiplier\",\"action\":\"resetToDefVal\",\"defVal\":2,\"inputType\":\"float\"}]}]}"]
