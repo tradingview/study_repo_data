@@ -1,0 +1,1 @@
+{"pkgName":"basicstudies","studyMigrations":[{"rules":[{"action":"resetToDefVal","defVal":"5.0","inputId":"diviation (%)","inputType":"float","type":"inputChangedType"}],"studyId":"ZigZag@tv-basicstudies"}],"versFrom":"55","versTo":"56"}
