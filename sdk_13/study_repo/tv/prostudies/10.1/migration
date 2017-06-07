@@ -1,1 +1,6 @@
-{"pkgName":"tv-prostudies","versFrom":"10","versTo":"10.1","studyMigrations":[]}
+{
+  "pkgName" : "tv-prostudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "10",
+  "versTo" : "10.1"
+}

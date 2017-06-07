@@ -1,1 +1,31 @@
-{"pkgName":"tv-basicstudies","versFrom":"12","versTo":"13","studyMigrations":[{"studyId":"BollingerBandsR@tv-basicstudies","rules":[{"type":"inputChangedType","inputId":"stdDev","action":"resetToDefVal","defVal":2,"inputType":"float"}]},{"studyId":"BollingerBandsWidth@tv-basicstudies","rules":[{"type":"inputChangedType","inputId":"stdDev","action":"resetToDefVal","defVal":2,"inputType":"float"}]}]}
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "stdDev",
+          "inputType" : "float",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "BollingerBandsR@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "stdDev",
+          "inputType" : "float",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "BollingerBandsWidth@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "12",
+  "versTo" : "13"
+}

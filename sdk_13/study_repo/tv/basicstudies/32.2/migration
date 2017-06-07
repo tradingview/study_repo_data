@@ -1,1 +1,24 @@
-{"pkgName":"tv-basicstudies","versFrom":"32","versTo":"32.2","studyMigrations":[{"studyId":"Stochastic@tv-basicstudies","rules":[{"type":"inputRemoved","inputId":"smooth"},{"type":"inputRemoved","inputId":"D"},{"type":"inputRemoved","inputId":"K"}]}]}
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "inputId" : "smooth",
+          "type" : "inputRemoved"
+        },
+        {
+          "inputId" : "D",
+          "type" : "inputRemoved"
+        },
+        {
+          "inputId" : "K",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Stochastic@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "32",
+  "versTo" : "32.2"
+}

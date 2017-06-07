@@ -1,1 +1,6 @@
-{"pkgName":"rb-bookerstudies","versFrom":"9","versTo":"9.1","studyMigrations":[]}
+{
+  "pkgName" : "rb-bookerstudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "9",
+  "versTo" : "9.1"
+}

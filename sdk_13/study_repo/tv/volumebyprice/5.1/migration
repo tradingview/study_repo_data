@@ -1,1 +1,6 @@
-{"pkgName":"tv-volumebyprice","versFrom":"5","versTo":"5.1","studyMigrations":[]}
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [ ],
+  "versFrom" : "5",
+  "versTo" : "5.1"
+}

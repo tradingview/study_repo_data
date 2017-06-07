@@ -1,1 +1,6 @@
-{"pkgName":"scripting","studyMigrations":[],"versFrom":"69","versTo":"70"}
+{
+  "pkgName" : "scripting",
+  "studyMigrations" : [ ],
+  "versFrom" : "69",
+  "versTo" : "70"
+}

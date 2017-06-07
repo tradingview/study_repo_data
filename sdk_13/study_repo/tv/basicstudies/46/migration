@@ -1,1 +1,6 @@
-{"pkgName":"tv-basicstudies","versFrom":"45","versTo":"46","studyMigrations":[]}
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "45",
+  "versTo" : "46"
+}

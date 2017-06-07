@@ -1,1 +1,6 @@
-{"pkgName":"ju-jurikstudies","versFrom":"2","versTo":"3","studyMigrations":[]}
+{
+  "pkgName" : "ju-jurikstudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "2",
+  "versTo" : "3"
+}

@@ -1,1 +1,34 @@
-{"pkgName":"scripting","studyMigrations":[{"rules":[{"inputId":"pineId","type":"inputRemoved"}],"studyId":"Script@tv-scripting"},{"rules":[{"inputId":"pineId","type":"inputRemoved"}],"studyId":"ESD@tv-scripting"},{"rules":[{"inputId":"pineId","type":"inputRemoved"}],"studyId":"StrategyScript@tv-scripting"}],"versFrom":"67","versTo":"68"}
+{
+  "pkgName" : "scripting",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "inputId" : "pineId",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Script@tv-scripting"
+    },
+    {
+      "rules" : [
+        {
+          "inputId" : "pineId",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "ESD@tv-scripting"
+    },
+    {
+      "rules" : [
+        {
+          "inputId" : "pineId",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "StrategyScript@tv-scripting"
+    }
+  ],
+  "versFrom" : "67",
+  "versTo" : "68"
+}

@@ -1,1 +1,6 @@
-{"pkgName":"les-decisionbar","versFrom":"0","versTo":"1","studyMigrations":[]}
+{
+  "pkgName" : "les-decisionbar",
+  "studyMigrations" : [ ],
+  "versFrom" : "0",
+  "versTo" : "1"
+}

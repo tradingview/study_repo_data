@@ -1,1 +1,6 @@
-{"pkgName":"pt-protrading","versFrom":"0","versTo":"1","studyMigrations":[]}
+{
+  "pkgName" : "pt-protrading",
+  "studyMigrations" : [ ],
+  "versFrom" : "0",
+  "versTo" : "1"
+}

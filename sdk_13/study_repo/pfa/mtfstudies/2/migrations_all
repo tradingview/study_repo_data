@@ -1,1 +1,18 @@
-[{"pkgName":"pfa-mtfstudies","studyMigrations":[{"rules":[{"inputId":"last_visible_bar_time","type":"inputRemoved"}],"studyId":"zoningMTFStudy@pfa-mtfstudies"}],"versFrom":"1","versTo":"2"}]
+[
+  {
+    "pkgName" : "pfa-mtfstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "inputId" : "last_visible_bar_time",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "zoningMTFStudy@pfa-mtfstudies"
+      }
+    ],
+    "versFrom" : "1",
+    "versTo" : "2"
+  }
+]

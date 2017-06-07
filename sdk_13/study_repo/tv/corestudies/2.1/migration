@@ -1,1 +1,6 @@
-{"pkgName":"tv-corestudies","versFrom":"2","versTo":"2.1","studyMigrations":[]}
+{
+  "pkgName" : "tv-corestudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "2",
+  "versTo" : "2.1"
+}

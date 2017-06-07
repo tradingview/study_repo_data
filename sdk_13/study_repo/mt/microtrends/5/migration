@@ -1,1 +1,6 @@
-{"pkgName":"mt-microtrends","versFrom":"4","versTo":"5","studyMigrations":[]}
+{
+  "pkgName" : "mt-microtrends",
+  "studyMigrations" : [ ],
+  "versFrom" : "4",
+  "versTo" : "5"
+}

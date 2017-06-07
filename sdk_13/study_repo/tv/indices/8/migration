@@ -1,1 +1,6 @@
-{"pkgName":"indices","studyMigrations":[],"versFrom":"7","versTo":"8"}
+{
+  "pkgName" : "indices",
+  "studyMigrations" : [ ],
+  "versFrom" : "7",
+  "versTo" : "8"
+}

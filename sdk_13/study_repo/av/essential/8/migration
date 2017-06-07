@@ -1,1 +1,6 @@
-{"pkgName":"av-essential","versFrom":"7","versTo":"8","studyMigrations":[]}
+{
+  "pkgName" : "av-essential",
+  "studyMigrations" : [ ],
+  "versFrom" : "7",
+  "versTo" : "8"
+}

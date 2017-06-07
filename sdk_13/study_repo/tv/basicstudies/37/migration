@@ -1,1 +1,45 @@
-{"pkgName":"tv-basicstudies","versFrom":"36","versTo":"37","studyMigrations":[{"studyId":"RegressionTrend@tv-basicstudies","rules":[{"type":"inputChangedType","inputId":"lower diviation","action":"resetToDefVal","defVal":-2,"inputType":"float"},{"type":"inputChangedType","inputId":"upper diviation","action":"resetToDefVal","defVal":2,"inputType":"float"}]},{"studyId":"LinearRegression@tv-basicstudies","rules":[{"type":"inputChangedType","inputId":"lower diviation","action":"resetToDefVal","defVal":-2,"inputType":"float"},{"type":"inputChangedType","inputId":"upper diviation","action":"resetToDefVal","defVal":2,"inputType":"float"}]}]}
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : -2,
+          "inputId" : "lower diviation",
+          "inputType" : "float",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "upper diviation",
+          "inputType" : "float",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "RegressionTrend@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : -2,
+          "inputId" : "lower diviation",
+          "inputType" : "float",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "upper diviation",
+          "inputType" : "float",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "LinearRegression@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "36",
+  "versTo" : "37"
+}

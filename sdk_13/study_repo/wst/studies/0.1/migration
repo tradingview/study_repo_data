@@ -1,1 +1,6 @@
-{"pkgName":"wst-studies","versFrom":"0","versTo":"0.1","studyMigrations":[]}
+{
+  "pkgName" : "wst-studies",
+  "studyMigrations" : [ ],
+  "versFrom" : "0",
+  "versTo" : "0.1"
+}

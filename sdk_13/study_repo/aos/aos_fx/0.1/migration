@@ -1,1 +1,6 @@
-{"pkgName":"aos-aos_fx","versFrom":"0","versTo":"0.1","studyMigrations":[]}
+{
+  "pkgName" : "aos-aos_fx",
+  "studyMigrations" : [ ],
+  "versFrom" : "0",
+  "versTo" : "0.1"
+}

@@ -1,1 +1,6 @@
-{"pkgName":"tv-scripting","versFrom":"17","versTo":"18","studyMigrations":[]}
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [ ],
+  "versFrom" : "17",
+  "versTo" : "18"
+}

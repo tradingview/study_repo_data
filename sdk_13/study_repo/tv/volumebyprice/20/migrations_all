@@ -1,1 +1,26 @@
-[{"pkgName":"volumebyprice","studyMigrations":[],"versFrom":"16","versTo":"17"},{"pkgName":"volumebyprice","studyMigrations":[],"versFrom":"17","versTo":"18"},{"pkgName":"volumebyprice","studyMigrations":[],"versFrom":"18","versTo":"19"},{"pkgName":"tv-volumebyprice-1","studyMigrations":[],"versFrom":"19","versTo":"20"}]
+[
+  {
+    "pkgName" : "volumebyprice",
+    "studyMigrations" : [ ],
+    "versFrom" : "16",
+    "versTo" : "17"
+  },
+  {
+    "pkgName" : "volumebyprice",
+    "studyMigrations" : [ ],
+    "versFrom" : "17",
+    "versTo" : "18"
+  },
+  {
+    "pkgName" : "volumebyprice",
+    "studyMigrations" : [ ],
+    "versFrom" : "18",
+    "versTo" : "19"
+  },
+  {
+    "pkgName" : "tv-volumebyprice-1",
+    "studyMigrations" : [ ],
+    "versFrom" : "19",
+    "versTo" : "20"
+  }
+]
