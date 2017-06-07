@@ -5,14 +5,17 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "topPct",
             "type" : "inputRemoved"
           },
           {
+            "action" : "removeVal",
             "inputId" : "bottomPct",
             "type" : "inputRemoved"
           },
           {
+            "action" : "removeVal",
             "inputId" : "kLength",
             "type" : "inputRemoved"
           }

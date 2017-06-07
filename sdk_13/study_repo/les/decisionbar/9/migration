@@ -1,5 +1,5 @@
 {
-  "pkgName" : "les-decisionbar-1",
+  "pkgName" : "les-decisionbar",
   "studyMigrations" : [ ],
   "versFrom" : "8",
   "versTo" : "9"

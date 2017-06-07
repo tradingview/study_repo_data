@@ -1,40 +1,11 @@
 [
   {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "62",
-    "versTo" : "63"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "63",
-    "versTo" : "64"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "64",
-    "versTo" : "65"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "65",
-    "versTo" : "66"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "66",
-    "versTo" : "67"
-  },
-  {
-    "pkgName" : "scripting",
+    "pkgName" : "tv-scripting",
     "studyMigrations" : [
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "pineId",
             "type" : "inputRemoved"
           }
@@ -44,6 +15,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "pineId",
             "type" : "inputRemoved"
           }
@@ -53,6 +25,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "pineId",
             "type" : "inputRemoved"
           }
@@ -64,23 +37,12 @@
     "versTo" : "68"
   },
   {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "68",
-    "versTo" : "69"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "69",
-    "versTo" : "70"
-  },
-  {
-    "pkgName" : "scripting",
+    "pkgName" : "tv-scripting",
     "studyMigrations" : [
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "pineId",
             "type" : "inputRemoved"
           }
@@ -90,6 +52,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "pineId",
             "type" : "inputRemoved"
           }
@@ -99,6 +62,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "pineId",
             "type" : "inputRemoved"
           }
@@ -108,95 +72,5 @@
     ],
     "versFrom" : "70",
     "versTo" : "71"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "71",
-    "versTo" : "72"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "72",
-    "versTo" : "73"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "73",
-    "versTo" : "74"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "74",
-    "versTo" : "75"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "75",
-    "versTo" : "76"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "76",
-    "versTo" : "77"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "77",
-    "versTo" : "78"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "78",
-    "versTo" : "79"
-  },
-  {
-    "pkgName" : "scripting",
-    "studyMigrations" : [ ],
-    "versFrom" : "79",
-    "versTo" : "80"
-  },
-  {
-    "pkgName" : "tv-scripting-1",
-    "studyMigrations" : [ ],
-    "versFrom" : "80",
-    "versTo" : "81"
-  },
-  {
-    "pkgName" : "tv-scripting-1",
-    "studyMigrations" : [ ],
-    "versFrom" : "81",
-    "versTo" : "82"
-  },
-  {
-    "pkgName" : "tv-scripting-1",
-    "studyMigrations" : [ ],
-    "versFrom" : "82",
-    "versTo" : "83"
-  },
-  {
-    "pkgName" : "tv-scripting-1",
-    "studyMigrations" : [ ],
-    "versFrom" : "83",
-    "versTo" : "84"
-  },
-  {
-    "pkgName" : "tv-scripting-1",
-    "studyMigrations" : [ ],
-    "versFrom" : "84",
-    "versTo" : "85"
-  },
-  {
-    "pkgName" : "tv-scripting-1",
-    "studyMigrations" : [ ],
-    "versFrom" : "85",
-    "versTo" : "86"
   }
 ]

@@ -4,6 +4,7 @@
     {
       "rules" : [
         {
+          "action" : "removeVal",
           "inputId" : "smoothing",
           "type" : "inputRemoved"
         }

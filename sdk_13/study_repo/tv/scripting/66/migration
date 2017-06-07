@@ -1,5 +1,5 @@
 {
-  "pkgName" : "scripting",
+  "pkgName" : "tv-scripting",
   "studyMigrations" : [ ],
   "versFrom" : "65",
   "versTo" : "66"

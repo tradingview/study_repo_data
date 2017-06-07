@@ -1,5 +1,5 @@
 {
-  "pkgName" : "volumebyprice",
+  "pkgName" : "tv-volumebyprice",
   "studyMigrations" : [ ],
   "versFrom" : "18",
   "versTo" : "19"

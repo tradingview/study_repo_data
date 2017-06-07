@@ -4,6 +4,7 @@
     {
       "rules" : [
         {
+          "action" : "removeVal",
           "inputId" : "last_visible_bar_time",
           "type" : "inputRemoved"
         }

@@ -1,5 +1,5 @@
 {
-  "pkgName" : "studies",
+  "pkgName" : "wst-studies",
   "studyMigrations" : [ ],
   "versFrom" : "1",
   "versTo" : "2"

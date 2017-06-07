@@ -5,6 +5,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "smoothing",
             "type" : "inputRemoved"
           }
@@ -21,6 +22,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "source",
             "type" : "inputRemoved"
           }
@@ -30,6 +32,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "source",
             "type" : "inputRemoved"
           }
@@ -136,7 +139,7 @@
     "versTo" : "9"
   },
   {
-    "pkgName" : "basicstudies",
+    "pkgName" : "tv-basicstudies",
     "studyMigrations" : [
       {
         "rules" : [
@@ -405,11 +408,5 @@
     ],
     "versFrom" : "51",
     "versTo" : "52"
-  },
-  {
-    "pkgName" : "basicstudies",
-    "studyMigrations" : [ ],
-    "versFrom" : "52",
-    "versTo" : "53"
   }
 ]

@@ -5,6 +5,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "source",
             "type" : "inputRemoved"
           }
@@ -14,6 +15,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "source",
             "type" : "inputRemoved"
           }

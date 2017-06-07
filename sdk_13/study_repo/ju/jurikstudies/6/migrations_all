@@ -1,6 +1,6 @@
 [
   {
-    "pkgName" : "ju-jurikstudies-1",
+    "pkgName" : "ju-jurikstudies",
     "studyMigrations" : [
       {
         "rules" : [

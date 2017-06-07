@@ -1,11 +1,11 @@
 {
-  "pkgName" : "basicstudies",
+  "pkgName" : "tv-basicstudies",
   "studyMigrations" : [
     {
       "rules" : [
         {
           "action" : "resetToDefVal",
-          "defVal" : "5.0",
+          "defVal" : 5.0,
           "inputId" : "diviation (%)",
           "inputType" : "float",
           "type" : "inputChangedType"

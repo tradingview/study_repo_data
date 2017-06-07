@@ -5,6 +5,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "smoothing",
             "type" : "inputRemoved"
           }
@@ -21,6 +22,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "source",
             "type" : "inputRemoved"
           }
@@ -30,6 +32,7 @@
       {
         "rules" : [
           {
+            "action" : "removeVal",
             "inputId" : "source",
             "type" : "inputRemoved"
           }
@@ -136,7 +139,7 @@
     "versTo" : "9"
   },
   {
-    "pkgName" : "basicstudies",
+    "pkgName" : "tv-basicstudies",
     "studyMigrations" : [
       {
         "rules" : [
@@ -407,31 +410,13 @@
     "versTo" : "52"
   },
   {
-    "pkgName" : "basicstudies",
-    "studyMigrations" : [ ],
-    "versFrom" : "52",
-    "versTo" : "53"
-  },
-  {
-    "pkgName" : "basicstudies",
-    "studyMigrations" : [ ],
-    "versFrom" : "53",
-    "versTo" : "54"
-  },
-  {
-    "pkgName" : "basicstudies",
-    "studyMigrations" : [ ],
-    "versFrom" : "54",
-    "versTo" : "55"
-  },
-  {
-    "pkgName" : "basicstudies",
+    "pkgName" : "tv-basicstudies",
     "studyMigrations" : [
       {
         "rules" : [
           {
             "action" : "resetToDefVal",
-            "defVal" : "5.0",
+            "defVal" : 5.0,
             "inputId" : "diviation (%)",
             "inputType" : "float",
             "type" : "inputChangedType"
@@ -442,17 +427,5 @@
     ],
     "versFrom" : "55",
     "versTo" : "56"
-  },
-  {
-    "pkgName" : "basicstudies",
-    "studyMigrations" : [ ],
-    "versFrom" : "56",
-    "versTo" : "57"
-  },
-  {
-    "pkgName" : "basicstudies",
-    "studyMigrations" : [ ],
-    "versFrom" : "57",
-    "versTo" : "58"
   }
 ]

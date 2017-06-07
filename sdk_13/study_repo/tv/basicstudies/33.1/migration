@@ -4,14 +4,17 @@
     {
       "rules" : [
         {
+          "action" : "removeVal",
           "inputId" : "arg_d",
           "type" : "inputRemoved"
         },
         {
+          "action" : "removeVal",
           "inputId" : "arg_k",
           "type" : "inputRemoved"
         },
         {
+          "action" : "removeVal",
           "inputId" : "arg_len",
           "type" : "inputRemoved"
         }
