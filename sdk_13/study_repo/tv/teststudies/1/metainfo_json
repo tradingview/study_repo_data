@@ -1,0 +1,97 @@
+[
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "arg" : 2.718281828
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInput_AddDouble_Remove_AddInt_ChangeTypeString@tv-teststudies-1",
+    "inputs" : [
+      {
+        "defval" : 2.718281828,
+        "id" : "arg",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Arg",
+        "type" : "float"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "arg" : "abc",
+        "argBool" : true
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInput_AddString_Remove_AddDouble_ChangeTypeInt@tv-teststudies-1",
+    "inputs" : [
+      {
+        "defval" : "abc",
+        "id" : "arg",
+        "name" : "Arg",
+        "type" : "text"
+      },
+      {
+        "defval" : true,
+        "id" : "argBool",
+        "name" : "ArgBool",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  }
+]
