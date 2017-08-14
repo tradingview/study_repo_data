@@ -1,0 +1,1155 @@
+[
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationFirstInputAdded@tv-teststudies-3",
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argOther" : true
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputAdded@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : true,
+        "id" : "argOther",
+        "name" : "ArgOther",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argDouble" : 5.5
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeDoubleToInt@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 5.5,
+        "id" : "argDouble",
+        "max" : 10.5,
+        "min" : 2.5,
+        "name" : "ArgDouble",
+        "type" : "float"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : 5
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeIntToBool@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 5,
+        "id" : "argInt",
+        "max" : 10,
+        "min" : 2,
+        "name" : "ArgInt",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : 5
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeIntToDouble@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 5,
+        "id" : "argInt",
+        "max" : 10,
+        "min" : 2,
+        "name" : "ArgInt",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : 100
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeIntToDoubleAndMinMax@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 100,
+        "id" : "argInt",
+        "max" : 15,
+        "min" : -100,
+        "name" : "ArgInt",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : 5
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeIntToString@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 5,
+        "id" : "argInt",
+        "max" : 10,
+        "min" : 2,
+        "name" : "ArgInt",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : "low",
+        "argString" : "close",
+        "argSymbol" : "high"
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeSourceToT@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : "close",
+        "id" : "argString",
+        "name" : "ArgString",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "source"
+      },
+      {
+        "defval" : "high",
+        "id" : "argSymbol",
+        "name" : "ArgSymbol",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "source"
+      },
+      {
+        "defval" : "low",
+        "id" : "argInt",
+        "name" : "ArgInt",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "source"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : "SPY",
+        "argSource" : "close",
+        "argSourceLessOpts" : "hl2",
+        "argString" : "abc",
+        "argStringNoOpts" : "abc",
+        "argSymbol" : "F"
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeStringToT@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : "close",
+        "id" : "argSource",
+        "name" : "ArgSource",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "hl2",
+        "id" : "argSourceLessOpts",
+        "name" : "ArgSourceLessOpts",
+        "options" : [
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "abc",
+        "id" : "argString",
+        "name" : "ArgString",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "abc",
+          "def",
+          "ghi"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "abc",
+        "id" : "argStringNoOpts",
+        "name" : "ArgStringNoOpts",
+        "type" : "text"
+      },
+      {
+        "defval" : "F",
+        "id" : "argSymbol",
+        "name" : "ArgSymbol",
+        "type" : "text"
+      },
+      {
+        "defval" : "SPY",
+        "id" : "argInt",
+        "name" : "ArgInt",
+        "type" : "text"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : "CL1!",
+        "argSource" : "SPY",
+        "argString" : "F"
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputChangesTypeSymbolToT@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : "F",
+        "id" : "argString",
+        "name" : "ArgString",
+        "type" : "symbol"
+      },
+      {
+        "defval" : "SPY",
+        "id" : "argSource",
+        "name" : "ArgSource",
+        "type" : "symbol"
+      },
+      {
+        "defval" : "CL1!",
+        "id" : "argInt",
+        "name" : "ArgInt",
+        "type" : "symbol"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argMaxDown" : 0.5,
+        "argMaxUp" : 0.5,
+        "argMinDown" : 0.5,
+        "argMinMaxNarrow" : 0.5,
+        "argMinMaxWide" : 0.5,
+        "argMinUp" : 0.5
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputDoubleMinMaxChange@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 0.5,
+        "id" : "argMinUp",
+        "max" : 10.5,
+        "min" : -10.5,
+        "name" : "ArgMinUp",
+        "type" : "float"
+      },
+      {
+        "defval" : 0.5,
+        "id" : "argMinDown",
+        "max" : 10.5,
+        "min" : -10.5,
+        "name" : "ArgMinDown",
+        "type" : "float"
+      },
+      {
+        "defval" : 0.5,
+        "id" : "argMaxUp",
+        "max" : 10.5,
+        "min" : -10.5,
+        "name" : "ArgMaxUp",
+        "type" : "float"
+      },
+      {
+        "defval" : 0.5,
+        "id" : "argMaxDown",
+        "max" : 10.5,
+        "min" : -10.5,
+        "name" : "ArgMaxDown",
+        "type" : "float"
+      },
+      {
+        "defval" : 0.5,
+        "id" : "argMinMaxNarrow",
+        "max" : 10.5,
+        "min" : -10.5,
+        "name" : "ArgMinMaxNarrow",
+        "type" : "float"
+      },
+      {
+        "defval" : 0.5,
+        "id" : "argMinMaxWide",
+        "max" : 10.5,
+        "min" : -10.5,
+        "name" : "ArgMinMaxWide",
+        "type" : "float"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argMaxDown" : 0,
+        "argMaxUp" : 0,
+        "argMinDown" : 0,
+        "argMinMaxNarrow" : 0,
+        "argMinMaxWide" : 0,
+        "argMinUp" : 0
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputIntMinMaxChange@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 0,
+        "id" : "argMinUp",
+        "max" : 10,
+        "min" : -10,
+        "name" : "ArgMinUp",
+        "type" : "integer"
+      },
+      {
+        "defval" : 0,
+        "id" : "argMinDown",
+        "max" : 10,
+        "min" : -10,
+        "name" : "ArgMinDown",
+        "type" : "integer"
+      },
+      {
+        "defval" : 0,
+        "id" : "argMaxUp",
+        "max" : 10,
+        "min" : -10,
+        "name" : "ArgMaxUp",
+        "type" : "integer"
+      },
+      {
+        "defval" : 0,
+        "id" : "argMaxDown",
+        "max" : 10,
+        "min" : -10,
+        "name" : "ArgMaxDown",
+        "type" : "integer"
+      },
+      {
+        "defval" : 0,
+        "id" : "argMinMaxNarrow",
+        "max" : 10,
+        "min" : -10,
+        "name" : "ArgMinMaxNarrow",
+        "type" : "integer"
+      },
+      {
+        "defval" : 0,
+        "id" : "argMinMaxWide",
+        "max" : 10,
+        "min" : -10,
+        "name" : "ArgMinMaxWide",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : 5,
+        "argOther" : true
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputRemoved@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 5,
+        "id" : "argInt",
+        "max" : 10,
+        "min" : 2,
+        "name" : "ArgInt",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "id" : "argOther",
+        "name" : "ArgOther",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "arg" : 0
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInput_AddDouble_Remove_AddInt_ChangeTypeString@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 0,
+        "id" : "arg",
+        "max" : 10,
+        "min" : -10,
+        "name" : "Arg",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "arg" : 2.718281828,
+        "argBool" : true
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInput_AddString_Remove_AddDouble_ChangeTypeInt@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 2.718281828,
+        "id" : "arg",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Arg",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "id" : "argBool",
+        "name" : "ArgBool",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "b" : true,
+        "bt" : -5,
+        "d" : 3.14,
+        "i" : 2,
+        "len" : 9,
+        "lenLong" : 9,
+        "s" : "a",
+        "sOpts" : "b",
+        "src" : "high",
+        "srcStr" : "close",
+        "sym" : "",
+        "t" : 0
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationInputsNotChanged@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : "a",
+        "id" : "s",
+        "name" : "S",
+        "type" : "text"
+      },
+      {
+        "defval" : "b",
+        "id" : "sOpts",
+        "name" : "SOpts",
+        "options" : [
+          "a",
+          "b",
+          "c"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 3.14,
+        "id" : "d",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "D",
+        "type" : "float"
+      },
+      {
+        "defval" : 2,
+        "id" : "i",
+        "max" : 10,
+        "min" : -10,
+        "name" : "I",
+        "type" : "integer"
+      },
+      {
+        "defval" : "high",
+        "id" : "src",
+        "name" : "Src",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "source"
+      },
+      {
+        "defval" : -5,
+        "id" : "bt",
+        "name" : "Bt",
+        "type" : "bar_time"
+      },
+      {
+        "defval" : true,
+        "id" : "b",
+        "name" : "B",
+        "type" : "bool"
+      },
+      {
+        "defval" : 9,
+        "id" : "len",
+        "max" : 2000,
+        "min" : 1,
+        "name" : "Len",
+        "type" : "integer"
+      },
+      {
+        "defval" : 9,
+        "id" : "lenLong",
+        "max" : 10000,
+        "min" : 1,
+        "name" : "LenLong",
+        "type" : "integer"
+      },
+      {
+        "defval" : "close",
+        "id" : "srcStr",
+        "name" : "SrcStr",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type" : "text"
+      },
+      {
+        "id" : "sym",
+        "name" : "Sym",
+        "type" : "symbol"
+      },
+      {
+        "defval" : 0,
+        "id" : "t",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "T",
+        "type" : "time"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argInt" : 5
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationLastInputRemoved@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : 5,
+        "id" : "argInt",
+        "max" : 10,
+        "min" : 2,
+        "name" : "ArgInt",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "argAOptionRemoved" : "a",
+        "argAllOptionsRemoved" : "a",
+        "argBOptionRemoved" : "a",
+        "argDOptionAdded" : "a"
+      },
+      "precision" : "4",
+      "styles" : {
+        "plot" : {
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "id" : "MigrationStringInputOptionsChanged@tv-teststudies-3",
+    "inputs" : [
+      {
+        "defval" : "a",
+        "id" : "argDOptionAdded",
+        "name" : "ArgDOptionAdded",
+        "options" : [
+          "a",
+          "b",
+          "c"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "a",
+        "id" : "argAOptionRemoved",
+        "name" : "ArgAOptionRemoved",
+        "options" : [
+          "a",
+          "b",
+          "c"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "a",
+        "id" : "argBOptionRemoved",
+        "name" : "ArgBOptionRemoved",
+        "options" : [
+          "a",
+          "b",
+          "c"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "a",
+        "id" : "argAllOptionsRemoved",
+        "name" : "ArgAllOptionsRemoved",
+        "options" : [
+          "a",
+          "b",
+          "c"
+        ],
+        "type" : "text"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "plot" : {
+        "histogramBase" : 0.0,
+        "title" : "Plot"
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "pkgName" : "tv-teststudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "argOne",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "argTwo",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "MigrationInput_StudyDeleted_StudyAdded@tv-teststudies"
+    }
+  ],
+  "versFrom" : "2",
+  "versTo" : "3"
+}
