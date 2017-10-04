@@ -1,0 +1,153 @@
+[
+  {
+    "pkgName" : "ju-jurikstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "JRC2_JMA@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "JRC2_JMA_BB@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "JRC2_JMA_DWMA_MACD@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "JRC2_JMA_DWMAxover@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "JRC2_JMA_FastK@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "RSX_double@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "RSX_onRSX@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "CFB@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "CFB4@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "JMA@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "RSX@ju-jurikstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "hlc3",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "VEL@ju-jurikstudies"
+      }
+    ],
+    "versFrom" : "5",
+    "versTo" : "6"
+  }
+]
