@@ -1,0 +1,362 @@
+{
+  "pkgName" : "tv-teststudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "inputId" : "argDouble",
+          "inputType" : "integer",
+          "inputTypeFrom" : "float",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeDoubleToInt@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : true,
+          "inputId" : "argInt",
+          "inputType" : "bool",
+          "inputTypeFrom" : "integer",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeIntToBool@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "inputId" : "argInt",
+          "inputType" : "float",
+          "inputTypeFrom" : "integer",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeIntToDouble@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "inputId" : "argInt",
+          "inputType" : "float",
+          "inputTypeFrom" : "integer",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argInt",
+          "inputType" : "float",
+          "maxVal" : 10.0,
+          "minVal" : -10.0,
+          "type" : "inputChangedMinMax"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeIntToDoubleAndMinMax@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "abc",
+          "inputId" : "argInt",
+          "inputType" : "text",
+          "inputTypeFrom" : "integer",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeIntToString@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "close",
+          "inputId" : "argString",
+          "inputType" : "text",
+          "inputTypeFrom" : "source",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "SPY",
+          "inputId" : "argSymbol",
+          "inputType" : "symbol",
+          "inputTypeFrom" : "source",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "argInt",
+          "inputType" : "integer",
+          "inputTypeFrom" : "source",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeSourceToT@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "defVal" : "close",
+          "inputId" : "argSource",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "convertVal",
+          "defVal" : "high",
+          "inputId" : "argSourceLessOpts",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "convertVal",
+          "defVal" : "low",
+          "inputId" : "argString",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "convertVal",
+          "defVal" : "open",
+          "inputId" : "argStringNoOpts",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "F",
+          "inputId" : "argSymbol",
+          "inputType" : "symbol",
+          "inputTypeFrom" : "text",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "argInt",
+          "inputType" : "integer",
+          "inputTypeFrom" : "text",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeStringToT@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "F",
+          "inputId" : "argString",
+          "inputType" : "text",
+          "inputTypeFrom" : "symbol",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "close",
+          "inputId" : "argSource",
+          "inputType" : "source",
+          "inputTypeFrom" : "symbol",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "resetToDefVal",
+          "defVal" : 2,
+          "inputId" : "argInt",
+          "inputType" : "integer",
+          "inputTypeFrom" : "symbol",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInputChangesTypeSymbolToT@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argMinUp",
+          "inputType" : "float",
+          "maxVal" : 10.5,
+          "minVal" : -5.5,
+          "type" : "inputChangedMinMax"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argMaxDown",
+          "inputType" : "float",
+          "maxVal" : 5.5,
+          "minVal" : -10.5,
+          "type" : "inputChangedMinMax"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argMinMaxNarrow",
+          "inputType" : "float",
+          "maxVal" : 5.5,
+          "minVal" : -5.5,
+          "type" : "inputChangedMinMax"
+        }
+      ],
+      "studyId" : "MigrationInputDoubleMinMaxChange@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argMinUp",
+          "inputType" : "integer",
+          "maxVal" : 10,
+          "minVal" : -5,
+          "type" : "inputChangedMinMax"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argMaxDown",
+          "inputType" : "integer",
+          "maxVal" : 5,
+          "minVal" : -10,
+          "type" : "inputChangedMinMax"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "argMinMaxNarrow",
+          "inputType" : "integer",
+          "maxVal" : 5,
+          "minVal" : -5,
+          "type" : "inputChangedMinMax"
+        }
+      ],
+      "studyId" : "MigrationInputIntMinMaxChange@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "argInt",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "MigrationInputRemoved@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : "abc",
+          "inputId" : "arg",
+          "inputType" : "text",
+          "inputTypeFrom" : "integer",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "MigrationInput_AddDouble_Remove_AddInt_ChangeTypeString@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "inputId" : "arg",
+          "inputType" : "integer",
+          "inputTypeFrom" : "float",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "arg",
+          "inputType" : "integer",
+          "maxVal" : 10,
+          "minVal" : -10,
+          "type" : "inputChangedMinMax"
+        }
+      ],
+      "studyId" : "MigrationInput_AddString_Remove_AddDouble_ChangeTypeInt@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "argInt",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "MigrationLastInputRemoved@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "b",
+          "inputId" : "argAOptionRemoved",
+          "inputType" : "text",
+          "options" : [
+            "b",
+            "c"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "a",
+          "inputId" : "argBOptionRemoved",
+          "inputType" : "text",
+          "options" : [
+            "a",
+            "c"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "MigrationStringInputOptionsChanged@tv-teststudies"
+    }
+  ],
+  "versFrom" : "3",
+  "versTo" : "4"
+}
