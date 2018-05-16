@@ -1,0 +1,6 @@
+{
+  "pkgName" : "mtp-mtpredictor",
+  "studyMigrations" : [ ],
+  "versFrom" : "6",
+  "versTo" : "7"
+}
