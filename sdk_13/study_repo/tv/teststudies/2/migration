@@ -1,0 +1,47 @@
+{
+  "pkgName" : "tv-teststudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "inputId" : "arg",
+          "inputType" : "integer",
+          "inputTypeFrom" : "float",
+          "type" : "inputChangedType"
+        },
+        {
+          "action" : "adjustValIfNeeded",
+          "inputId" : "arg",
+          "inputType" : "integer",
+          "maxVal" : 10,
+          "minVal" : -10,
+          "type" : "inputChangedMinMax"
+        }
+      ],
+      "studyId" : "MigrationInput_AddDouble_ChangeTypeInt_NoChange_NoChange@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "arg",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "MigrationInput_AddDouble_Remove_AddInt_ChangeTypeString@tv-teststudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "arg",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "MigrationInput_AddString_Remove_AddDouble_ChangeTypeInt@tv-teststudies"
+    }
+  ],
+  "versFrom" : "1",
+  "versTo" : "2"
+}
