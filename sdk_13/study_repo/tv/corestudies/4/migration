@@ -1,0 +1,62 @@
+{
+  "pkgName" : "tv-corestudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "rollrules",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "from",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "to",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "currtime",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "restrictions",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetCC@tv-corestudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "tickers",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "expr",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "tz",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "session",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetSpread@tv-corestudies"
+    }
+  ],
+  "versFrom" : "3",
+  "versTo" : "4"
+}
