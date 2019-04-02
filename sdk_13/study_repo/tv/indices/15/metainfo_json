@@ -1,0 +1,245 @@
+[
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "components" : "",
+        "divisorSymbol" : "",
+        "fundamentalsSourcePrefix" : "EDGR",
+        "historySymbol" : "",
+        "initialValue" : 1.0,
+        "mode" : "default",
+        "startDate" : 0,
+        "unadjustedSuffix" : "_UNADJ"
+      },
+      "precision" : "4"
+    },
+    "description" : "Unnamed Study",
+    "id" : "CapWeightedIndex@tv-indices-15",
+    "inputs" : [
+      {
+        "defval" : 0,
+        "id" : "startDate",
+        "max" : 2147483647,
+        "min" : 0,
+        "name" : "StartDate",
+        "type" : "integer"
+      },
+      {
+        "defval" : 1.0,
+        "id" : "initialValue",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "InitialValue",
+        "type" : "float"
+      },
+      {
+        "defval" : "",
+        "id" : "components",
+        "name" : "Components",
+        "type" : "text"
+      },
+      {
+        "defval" : "EDGR",
+        "id" : "fundamentalsSourcePrefix",
+        "name" : "FundamentalsSourcePrefix",
+        "type" : "text"
+      },
+      {
+        "defval" : "_UNADJ",
+        "id" : "unadjustedSuffix",
+        "name" : "UnadjustedSuffix",
+        "type" : "text"
+      },
+      {
+        "defval" : "default",
+        "id" : "mode",
+        "name" : "Mode",
+        "options" : [
+          "default",
+          "divisor",
+          "realtime",
+          "history"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "historySymbol",
+        "name" : "HistorySymbol",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "divisorSymbol",
+        "name" : "DivisorSymbol",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "components" : "",
+        "historySymbol" : "",
+        "mode" : "default",
+        "multiplier" : 1.0
+      },
+      "precision" : "4"
+    },
+    "description" : "Unnamed Study",
+    "id" : "PriceWeightedIndex@tv-indices-15",
+    "inputs" : [
+      {
+        "defval" : 1.0,
+        "id" : "multiplier",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Multiplier",
+        "type" : "float"
+      },
+      {
+        "defval" : "",
+        "id" : "components",
+        "name" : "Components",
+        "type" : "text"
+      },
+      {
+        "defval" : "default",
+        "id" : "mode",
+        "name" : "Mode",
+        "options" : [
+          "default",
+          "realtime",
+          "history"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "historySymbol",
+        "name" : "HistorySymbol",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 44,
+    "defaults" : {
+      "inputs" : {
+        "config" : "",
+        "config_compressed" : "",
+        "main_symbol" : "BITFINEX:BTCUSD",
+        "start_time" : 0
+      },
+      "precision" : "4"
+    },
+    "description" : "Unnamed Study",
+    "id" : "TotalCryptoCap@tv-indices-15",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "config_compressed",
+        "name" : "Config_compressed",
+        "type" : "text"
+      },
+      {
+        "defval" : "BITFINEX:BTCUSD",
+        "id" : "main_symbol",
+        "name" : "Main_symbol",
+        "type" : "text"
+      },
+      {
+        "defval" : 0,
+        "id" : "start_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Start_time",
+        "type" : "time"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  }
+]
