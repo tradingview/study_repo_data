@@ -1,0 +1,47 @@
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "logToken",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "ESD@tv-scripting"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "logToken",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Internal@tv-scripting"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "logToken",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Script@tv-scripting"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "logToken",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "StrategyScript@tv-scripting"
+    }
+  ],
+  "versFrom" : "104",
+  "versTo" : "105"
+}
