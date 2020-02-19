@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-prostudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "source",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetRenko@tv-prostudies"
+    }
+  ],
+  "versFrom" : "37",
+  "versTo" : "38"
+}
