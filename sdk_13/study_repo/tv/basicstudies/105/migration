@@ -1,0 +1,102 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "lookBack",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "periodOne",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "periodTwo",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "periodThree",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BookerIntradayPivots@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "barsBack",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "rsiPeriod",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "momentumPeriod",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BookerKnoxvilleDivergence@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "daysBack",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "showTouched",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BookerMissedPivots@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "fastMAPeriod",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "slowMAPeriod",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "KPeriod",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "slowing",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "stochasticUpper",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "stochasticLower",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BookerReversal@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "104",
+  "versTo" : "105"
+}
