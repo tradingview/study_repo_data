@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-teststudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "restartCount",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "RTonly",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "RestartContext@tv-teststudies"
+    }
+  ],
+  "versFrom" : "5",
+  "versTo" : "6"
+}
