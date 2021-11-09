@@ -1,0 +1,6 @@
+{
+  "pkgName" : "tv-indices",
+  "studyMigrations" : [ ],
+  "versFrom" : "23",
+  "versTo" : "24"
+}
