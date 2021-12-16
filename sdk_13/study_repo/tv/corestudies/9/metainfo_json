@@ -1,0 +1,57 @@
+[
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "mult" : -1,
+        "useIntraday" : false
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "OHLCV@tv-corestudies-9",
+    "inputs" : [
+      {
+        "defval" : -1,
+        "id" : "mult",
+        "max" : 2147483647,
+        "min" : -1,
+        "name" : "Mult",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "useIntraday",
+        "name" : "UseIntraday",
+        "type" : "bool"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  }
+]
