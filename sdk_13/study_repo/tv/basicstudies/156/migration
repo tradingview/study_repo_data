@@ -1,0 +1,127 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BullishFlagCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "DoubleTopCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "HeadAndShouldersCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Color Graph",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Color Extend Line",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "PennantCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "RectangleCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TriangleCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TripleTopCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Channel Width Ratio Start\/End",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "flip vertically",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Color Graph",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Color Extend Line",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "WedgeCP@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "155",
+  "versTo" : "156"
+}
