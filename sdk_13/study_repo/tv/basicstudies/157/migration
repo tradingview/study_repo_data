@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Permissible Deviation",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TripleBottomCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Permissible Deviation",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TripleTopCP@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "156",
+  "versTo" : "157"
+}
