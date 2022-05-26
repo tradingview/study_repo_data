@@ -1,0 +1,23 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Up\/Down",
+          "inputId" : "volume",
+          "inputType" : "text",
+          "options" : [
+            "Up\/Down",
+            "Total"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "VbPFixed@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "166",
+  "versTo" : "167"
+}
