@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Large Waves",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "ElliottWaveCP@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "174",
+  "versTo" : "175"
+}
