@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "In Progress",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BearishFlagCP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "In Progress",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BullishFlagCP@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "182",
+  "versTo" : "183"
+}
