@@ -1,0 +1,6 @@
+{
+  "pkgName" : "tv-teststudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "2",
+  "versTo" : "3"
+}
