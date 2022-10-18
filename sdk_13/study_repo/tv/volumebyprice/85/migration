@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "source",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPAutoAnchored@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "84",
+  "versTo" : "85"
+}
