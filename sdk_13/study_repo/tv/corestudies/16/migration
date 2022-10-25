@@ -1,0 +1,20 @@
+{
+  "pkgName" : "tv-corestudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefVal",
+          "defVal" : false,
+          "inputId" : "norecalc",
+          "inputType" : "bool",
+          "inputTypeFrom" : "text",
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "BarSetRollover@tv-corestudies"
+    }
+  ],
+  "versFrom" : "15",
+  "versTo" : "16"
+}
