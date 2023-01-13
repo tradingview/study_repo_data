@@ -1,0 +1,73 @@
+{
+  "pkgName" : "pt-protrading",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "defVal" : "close",
+          "inputId" : "maPriceType",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "PivotBreak@pt-protrading"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "defVal" : "close",
+          "inputId" : "src",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "PredictiveRSI@pt-protrading"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "convertVal",
+          "defVal" : "close",
+          "inputId" : "priceSource",
+          "inputType" : "source",
+          "inputTypeFrom" : "text",
+          "options" : [
+            "open",
+            "high",
+            "low",
+            "close",
+            "hl2",
+            "hlc3",
+            "ohlc4"
+          ],
+          "type" : "inputChangedType"
+        }
+      ],
+      "studyId" : "SmartPoints@pt-protrading"
+    }
+  ],
+  "versFrom" : "7",
+  "versTo" : "8"
+}
