@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPFixed@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "211",
+  "versTo" : "212"
+}
