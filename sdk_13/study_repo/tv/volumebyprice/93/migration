@@ -1,0 +1,87 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPAutoAnchored@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPFixed@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPPeriodic@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPSessions@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPSessionsDetailed@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPSessionsDetailedAlerts@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPSessionsRough@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mapRightBoundaryToBarStartTime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VbPSessionsRoughDetailed@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "92",
+  "versTo" : "93"
+}
