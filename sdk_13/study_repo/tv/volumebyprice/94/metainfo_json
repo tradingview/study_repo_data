@@ -1,0 +1,2813 @@
+[
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "Anchor Period" : "Auto",
+        "Length" : 14,
+        "mapRightBoundaryToBarStartTime" : false,
+        "rows" : 24,
+        "rowsLayout" : "Number Of Rows",
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Auto Anchored Volume Profile",
+    "extra" : {
+      "isBeta" : false,
+      "isNew" : true,
+      "isPro" : true,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : true
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : true
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : true
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPAutoAnchored@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : "Auto",
+        "id" : "Anchor Period",
+        "name" : "Anchor Period",
+        "options" : [
+          "Auto",
+          "Highest High",
+          "Lowest Low",
+          "Highest Volume",
+          "Session",
+          "Week",
+          "Month",
+          "Year",
+          "Quarter",
+          "Decade",
+          "Century",
+          "Earnings",
+          "Dividends",
+          "Splits"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : 14,
+        "id" : "Length",
+        "max" : 2147483647,
+        "min" : 1,
+        "name" : "Length",
+        "tooltip" : "Applicable to Highest High, Lowest Low, and Highest Volume anchor periods.",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Number Of Rows",
+        "id" : "rowsLayout",
+        "name" : "Rows Layout",
+        "options" : [
+          "Number Of Rows",
+          "Ticks Per Row"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 24,
+        "id" : "rows",
+        "max" : 1000000,
+        "min" : 1,
+        "name" : "Row Size",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      }
+    ],
+    "is_price_study" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "AAVP",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "extendToRight" : false,
+        "first_bar_time" : 0,
+        "last_bar_time" : 0,
+        "mapRightBoundaryToBarStartTime" : false,
+        "rows" : 24,
+        "rowsLayout" : "Number Of Rows",
+        "subscribeRealtime" : true,
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Fixed Range Volume Profile",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : true
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : true
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : true
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPFixed@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : "Number Of Rows",
+        "id" : "rowsLayout",
+        "name" : "Rows Layout",
+        "options" : [
+          "Number Of Rows",
+          "Ticks Per Row"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 24,
+        "id" : "rows",
+        "max" : 1000000,
+        "min" : 1,
+        "name" : "Row Size",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 0,
+        "id" : "first_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "First Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 0,
+        "id" : "last_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Last Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "id" : "subscribeRealtime",
+        "isHidden" : true,
+        "name" : "SubscribeRealtime",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendToRight",
+        "name" : "Extend Right",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "FRVP",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    },
+    "tags" : [
+      "VbP"
+    ]
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "extendPocRight" : false,
+        "extendVAHRight" : false,
+        "extendVALRight" : false,
+        "mapRightBoundaryToBarStartTime" : false,
+        "period" : "Bar",
+        "periodsNum" : 1,
+        "rows" : 24,
+        "rowsLayout" : "Number Of Rows",
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Periodic Volume Profile",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : false
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : false
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : false
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPPeriodic@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : 1,
+        "id" : "periodsNum",
+        "inline" : "period",
+        "max" : 1000000,
+        "min" : 1,
+        "name" : "Period",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Bar",
+        "id" : "period",
+        "inline" : "period",
+        "name" : " ",
+        "options" : [
+          "Bar",
+          "Day",
+          "Week",
+          "Month"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Number Of Rows",
+        "id" : "rowsLayout",
+        "name" : "Rows Layout",
+        "options" : [
+          "Number Of Rows",
+          "Ticks Per Row"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 24,
+        "id" : "rows",
+        "max" : 1000000,
+        "min" : 1,
+        "name" : "Row Size",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "extendPocRight",
+        "name" : "Extend POC Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVAHRight",
+        "name" : "Extend VAH Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVALRight",
+        "name" : "Extend VAL Right",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "PVP",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "customSession" : "0930-1600",
+        "customSessionTZ" : "Exchange",
+        "extendPocRight" : false,
+        "extendVAHRight" : false,
+        "extendVALRight" : false,
+        "mapRightBoundaryToBarStartTime" : false,
+        "profilesSessions" : "All",
+        "rows" : 24,
+        "rowsLayout" : "Number Of Rows",
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Session Volume Profile",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : false
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : false
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : false
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPSessions@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : "All",
+        "id" : "profilesSessions",
+        "name" : "Sessions",
+        "options" : [
+          "All",
+          "Each (pre-market, market, post-market)",
+          "Pre-market only",
+          "Market only",
+          "Post-market only",
+          "Custom"
+        ],
+        "tooltip" : "Determines the sessions used to build the profile: \"All\" builds one profile per day. \"Each\" builds one profile per session. \"Custom\" builds one profile for the selected period. The other choices build a profile only for that session.",
+        "type" : "text"
+      },
+      {
+        "defval" : "0930-1600",
+        "id" : "customSession",
+        "name" : "Custom session",
+        "type" : "session"
+      },
+      {
+        "defval" : "Exchange",
+        "id" : "customSessionTZ",
+        "name" : " ",
+        "options" : [
+          "Exchange",
+          "Etc\/UTC",
+          "Africa\/Cairo",
+          "Africa\/Johannesburg",
+          "Africa\/Lagos",
+          "America\/Argentina\/Buenos_Aires",
+          "America\/Bogota",
+          "America\/Caracas",
+          "America\/Chicago",
+          "America\/El_Salvador",
+          "America\/Juneau",
+          "America\/Lima",
+          "America\/Los_Angeles",
+          "America\/Mexico_City",
+          "America\/New_York",
+          "America\/Phoenix",
+          "America\/Santiago",
+          "America\/Sao_Paulo",
+          "America\/Toronto",
+          "America\/Vancouver",
+          "Asia\/Almaty",
+          "Asia\/Ashkhabad",
+          "Asia\/Bahrain",
+          "Asia\/Bangkok",
+          "Asia\/Chongqing",
+          "Asia\/Dubai",
+          "Asia\/Ho_Chi_Minh",
+          "Asia\/Hong_Kong",
+          "Asia\/Jakarta",
+          "Asia\/Jerusalem",
+          "Asia\/Kathmandu",
+          "Asia\/Kolkata",
+          "Asia\/Kuwait",
+          "Asia\/Manila",
+          "Asia\/Muscat",
+          "Asia\/Qatar",
+          "Asia\/Riyadh",
+          "Asia\/Seoul",
+          "Asia\/Shanghai",
+          "Asia\/Singapore",
+          "Asia\/Taipei",
+          "Asia\/Tehran",
+          "Asia\/Tokyo",
+          "Atlantic\/Reykjavik",
+          "Australia\/ACT",
+          "Australia\/Adelaide",
+          "Australia\/Brisbane",
+          "Australia\/Perth",
+          "Australia\/Sydney",
+          "Europe\/Athens",
+          "Europe\/Belgrade",
+          "Europe\/Berlin",
+          "Europe\/Copenhagen",
+          "Europe\/Helsinki",
+          "Europe\/Istanbul",
+          "Europe\/London",
+          "Europe\/Luxembourg",
+          "Europe\/Madrid",
+          "Europe\/Moscow",
+          "Europe\/Oslo",
+          "Europe\/Paris",
+          "Europe\/Riga",
+          "Europe\/Rome",
+          "Europe\/Stockholm",
+          "Europe\/Tallinn",
+          "Europe\/Vilnius",
+          "Europe\/Warsaw",
+          "Europe\/Zurich",
+          "Pacific\/Auckland",
+          "Pacific\/Chatham",
+          "Pacific\/Fakaofo",
+          "Pacific\/Honolulu",
+          "Pacific\/Norfolk",
+          "US\/Mountain"
+        ],
+        "tooltip" : "If the `Sessions` input is set to `Custom`, this input modifies starting and ending times of each volume profile. The session is specified the `hhmm-hhmm` format and adjusted to the chosen time zone.",
+        "type" : "text"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Number Of Rows",
+        "id" : "rowsLayout",
+        "name" : "Rows Layout",
+        "options" : [
+          "Number Of Rows",
+          "Ticks Per Row"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 24,
+        "id" : "rows",
+        "max" : 1000000,
+        "min" : 1,
+        "name" : "Row Size",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "extendPocRight",
+        "name" : "Extend POC Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVAHRight",
+        "name" : "Extend VAH Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVALRight",
+        "name" : "Extend VAL Right",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "SVP",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "customSession" : "0930-1600",
+        "customSessionTZ" : "Exchange",
+        "extendPocRight" : false,
+        "extendVAHRight" : false,
+        "extendVALRight" : false,
+        "first_visible_bar_time" : 0,
+        "last_visible_bar_time" : 0,
+        "mapRightBoundaryToBarStartTime" : false,
+        "profilesSessions" : "All",
+        "subscribeRealtime" : true,
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Session Volume Profile (Detailed)",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : false
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : false
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : false
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPSessionsDetailed@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : "All",
+        "id" : "profilesSessions",
+        "name" : "Sessions",
+        "options" : [
+          "All",
+          "Each (pre-market, market, post-market)",
+          "Pre-market only",
+          "Market only",
+          "Post-market only",
+          "Custom"
+        ],
+        "tooltip" : "Determines the sessions used to build the profile: \"All\" builds one profile per day. \"Each\" builds one profile per session. \"Custom\" builds one profile for the selected period. The other choices build a profile only for that session.",
+        "type" : "text"
+      },
+      {
+        "defval" : "0930-1600",
+        "id" : "customSession",
+        "name" : "Custom session",
+        "type" : "session"
+      },
+      {
+        "defval" : "Exchange",
+        "id" : "customSessionTZ",
+        "name" : " ",
+        "options" : [
+          "Exchange",
+          "Etc\/UTC",
+          "Africa\/Cairo",
+          "Africa\/Johannesburg",
+          "Africa\/Lagos",
+          "America\/Argentina\/Buenos_Aires",
+          "America\/Bogota",
+          "America\/Caracas",
+          "America\/Chicago",
+          "America\/El_Salvador",
+          "America\/Juneau",
+          "America\/Lima",
+          "America\/Los_Angeles",
+          "America\/Mexico_City",
+          "America\/New_York",
+          "America\/Phoenix",
+          "America\/Santiago",
+          "America\/Sao_Paulo",
+          "America\/Toronto",
+          "America\/Vancouver",
+          "Asia\/Almaty",
+          "Asia\/Ashkhabad",
+          "Asia\/Bahrain",
+          "Asia\/Bangkok",
+          "Asia\/Chongqing",
+          "Asia\/Dubai",
+          "Asia\/Ho_Chi_Minh",
+          "Asia\/Hong_Kong",
+          "Asia\/Jakarta",
+          "Asia\/Jerusalem",
+          "Asia\/Kathmandu",
+          "Asia\/Kolkata",
+          "Asia\/Kuwait",
+          "Asia\/Manila",
+          "Asia\/Muscat",
+          "Asia\/Qatar",
+          "Asia\/Riyadh",
+          "Asia\/Seoul",
+          "Asia\/Shanghai",
+          "Asia\/Singapore",
+          "Asia\/Taipei",
+          "Asia\/Tehran",
+          "Asia\/Tokyo",
+          "Atlantic\/Reykjavik",
+          "Australia\/ACT",
+          "Australia\/Adelaide",
+          "Australia\/Brisbane",
+          "Australia\/Perth",
+          "Australia\/Sydney",
+          "Europe\/Athens",
+          "Europe\/Belgrade",
+          "Europe\/Berlin",
+          "Europe\/Copenhagen",
+          "Europe\/Helsinki",
+          "Europe\/Istanbul",
+          "Europe\/London",
+          "Europe\/Luxembourg",
+          "Europe\/Madrid",
+          "Europe\/Moscow",
+          "Europe\/Oslo",
+          "Europe\/Paris",
+          "Europe\/Riga",
+          "Europe\/Rome",
+          "Europe\/Stockholm",
+          "Europe\/Tallinn",
+          "Europe\/Vilnius",
+          "Europe\/Warsaw",
+          "Europe\/Zurich",
+          "Pacific\/Auckland",
+          "Pacific\/Chatham",
+          "Pacific\/Fakaofo",
+          "Pacific\/Honolulu",
+          "Pacific\/Norfolk",
+          "US\/Mountain"
+        ],
+        "tooltip" : "If the `Sessions` input is set to `Custom`, this input modifies starting and ending times of each volume profile. The session is specified the `hhmm-hhmm` format and adjusted to the chosen time zone.",
+        "type" : "text"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "extendPocRight",
+        "name" : "Extend POC Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVAHRight",
+        "name" : "Extend VAH Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVALRight",
+        "name" : "Extend VAL Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : 0,
+        "id" : "first_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "First Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 0,
+        "id" : "last_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Last Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : true,
+        "id" : "subscribeRealtime",
+        "isHidden" : true,
+        "name" : "SubscribeRealtime",
+        "type" : "bool"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "VPSVd",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "customSession" : "0930-1600",
+        "customSessionTZ" : "Exchange",
+        "extendPocRight" : false,
+        "extendVAHRight" : false,
+        "extendVALRight" : false,
+        "first_visible_bar_time" : 0,
+        "last_visible_bar_time" : 0,
+        "mapRightBoundaryToBarStartTime" : false,
+        "profilesSessions" : "All",
+        "subscribeRealtime" : true,
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Unnamed Study",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : false
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : false
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : false
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPSessionsDetailedAlerts@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : "All",
+        "id" : "profilesSessions",
+        "name" : "Sessions",
+        "options" : [
+          "All",
+          "Each (pre-market, market, post-market)",
+          "Pre-market only",
+          "Market only",
+          "Post-market only",
+          "Custom"
+        ],
+        "tooltip" : "Determines the sessions used to build the profile: \"All\" builds one profile per day. \"Each\" builds one profile per session. \"Custom\" builds one profile for the selected period. The other choices build a profile only for that session.",
+        "type" : "text"
+      },
+      {
+        "defval" : "0930-1600",
+        "id" : "customSession",
+        "name" : "Custom session",
+        "type" : "session"
+      },
+      {
+        "defval" : "Exchange",
+        "id" : "customSessionTZ",
+        "name" : " ",
+        "options" : [
+          "Exchange",
+          "Etc\/UTC",
+          "Africa\/Cairo",
+          "Africa\/Johannesburg",
+          "Africa\/Lagos",
+          "America\/Argentina\/Buenos_Aires",
+          "America\/Bogota",
+          "America\/Caracas",
+          "America\/Chicago",
+          "America\/El_Salvador",
+          "America\/Juneau",
+          "America\/Lima",
+          "America\/Los_Angeles",
+          "America\/Mexico_City",
+          "America\/New_York",
+          "America\/Phoenix",
+          "America\/Santiago",
+          "America\/Sao_Paulo",
+          "America\/Toronto",
+          "America\/Vancouver",
+          "Asia\/Almaty",
+          "Asia\/Ashkhabad",
+          "Asia\/Bahrain",
+          "Asia\/Bangkok",
+          "Asia\/Chongqing",
+          "Asia\/Dubai",
+          "Asia\/Ho_Chi_Minh",
+          "Asia\/Hong_Kong",
+          "Asia\/Jakarta",
+          "Asia\/Jerusalem",
+          "Asia\/Kathmandu",
+          "Asia\/Kolkata",
+          "Asia\/Kuwait",
+          "Asia\/Manila",
+          "Asia\/Muscat",
+          "Asia\/Qatar",
+          "Asia\/Riyadh",
+          "Asia\/Seoul",
+          "Asia\/Shanghai",
+          "Asia\/Singapore",
+          "Asia\/Taipei",
+          "Asia\/Tehran",
+          "Asia\/Tokyo",
+          "Atlantic\/Reykjavik",
+          "Australia\/ACT",
+          "Australia\/Adelaide",
+          "Australia\/Brisbane",
+          "Australia\/Perth",
+          "Australia\/Sydney",
+          "Europe\/Athens",
+          "Europe\/Belgrade",
+          "Europe\/Berlin",
+          "Europe\/Copenhagen",
+          "Europe\/Helsinki",
+          "Europe\/Istanbul",
+          "Europe\/London",
+          "Europe\/Luxembourg",
+          "Europe\/Madrid",
+          "Europe\/Moscow",
+          "Europe\/Oslo",
+          "Europe\/Paris",
+          "Europe\/Riga",
+          "Europe\/Rome",
+          "Europe\/Stockholm",
+          "Europe\/Tallinn",
+          "Europe\/Vilnius",
+          "Europe\/Warsaw",
+          "Europe\/Zurich",
+          "Pacific\/Auckland",
+          "Pacific\/Chatham",
+          "Pacific\/Fakaofo",
+          "Pacific\/Honolulu",
+          "Pacific\/Norfolk",
+          "US\/Mountain"
+        ],
+        "tooltip" : "If the `Sessions` input is set to `Custom`, this input modifies starting and ending times of each volume profile. The session is specified the `hhmm-hhmm` format and adjusted to the chosen time zone.",
+        "type" : "text"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "extendPocRight",
+        "name" : "Extend POC Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVAHRight",
+        "name" : "Extend VAH Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVALRight",
+        "name" : "Extend VAL Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : 0,
+        "id" : "first_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "First Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 0,
+        "id" : "last_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Last Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : true,
+        "id" : "subscribeRealtime",
+        "isHidden" : true,
+        "name" : "SubscribeRealtime",
+        "type" : "bool"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "VPSVdAlerts",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "customSession" : "0930-1600",
+        "customSessionTZ" : "Exchange",
+        "extendPocRight" : false,
+        "extendVAHRight" : false,
+        "extendVALRight" : false,
+        "mapRightBoundaryToBarStartTime" : false,
+        "profilesSessions" : "All",
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Session Volume Profile (Rough)",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : false
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : false
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : false
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPSessionsRough@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : "All",
+        "id" : "profilesSessions",
+        "name" : "Sessions",
+        "options" : [
+          "All",
+          "Each (pre-market, market, post-market)",
+          "Pre-market only",
+          "Market only",
+          "Post-market only",
+          "Custom"
+        ],
+        "tooltip" : "Determines the sessions used to build the profile: \"All\" builds one profile per day. \"Each\" builds one profile per session. \"Custom\" builds one profile for the selected period. The other choices build a profile only for that session.",
+        "type" : "text"
+      },
+      {
+        "defval" : "0930-1600",
+        "id" : "customSession",
+        "name" : "Custom session",
+        "type" : "session"
+      },
+      {
+        "defval" : "Exchange",
+        "id" : "customSessionTZ",
+        "name" : " ",
+        "options" : [
+          "Exchange",
+          "Etc\/UTC",
+          "Africa\/Cairo",
+          "Africa\/Johannesburg",
+          "Africa\/Lagos",
+          "America\/Argentina\/Buenos_Aires",
+          "America\/Bogota",
+          "America\/Caracas",
+          "America\/Chicago",
+          "America\/El_Salvador",
+          "America\/Juneau",
+          "America\/Lima",
+          "America\/Los_Angeles",
+          "America\/Mexico_City",
+          "America\/New_York",
+          "America\/Phoenix",
+          "America\/Santiago",
+          "America\/Sao_Paulo",
+          "America\/Toronto",
+          "America\/Vancouver",
+          "Asia\/Almaty",
+          "Asia\/Ashkhabad",
+          "Asia\/Bahrain",
+          "Asia\/Bangkok",
+          "Asia\/Chongqing",
+          "Asia\/Dubai",
+          "Asia\/Ho_Chi_Minh",
+          "Asia\/Hong_Kong",
+          "Asia\/Jakarta",
+          "Asia\/Jerusalem",
+          "Asia\/Kathmandu",
+          "Asia\/Kolkata",
+          "Asia\/Kuwait",
+          "Asia\/Manila",
+          "Asia\/Muscat",
+          "Asia\/Qatar",
+          "Asia\/Riyadh",
+          "Asia\/Seoul",
+          "Asia\/Shanghai",
+          "Asia\/Singapore",
+          "Asia\/Taipei",
+          "Asia\/Tehran",
+          "Asia\/Tokyo",
+          "Atlantic\/Reykjavik",
+          "Australia\/ACT",
+          "Australia\/Adelaide",
+          "Australia\/Brisbane",
+          "Australia\/Perth",
+          "Australia\/Sydney",
+          "Europe\/Athens",
+          "Europe\/Belgrade",
+          "Europe\/Berlin",
+          "Europe\/Copenhagen",
+          "Europe\/Helsinki",
+          "Europe\/Istanbul",
+          "Europe\/London",
+          "Europe\/Luxembourg",
+          "Europe\/Madrid",
+          "Europe\/Moscow",
+          "Europe\/Oslo",
+          "Europe\/Paris",
+          "Europe\/Riga",
+          "Europe\/Rome",
+          "Europe\/Stockholm",
+          "Europe\/Tallinn",
+          "Europe\/Vilnius",
+          "Europe\/Warsaw",
+          "Europe\/Zurich",
+          "Pacific\/Auckland",
+          "Pacific\/Chatham",
+          "Pacific\/Fakaofo",
+          "Pacific\/Honolulu",
+          "Pacific\/Norfolk",
+          "US\/Mountain"
+        ],
+        "tooltip" : "If the `Sessions` input is set to `Custom`, this input modifies starting and ending times of each volume profile. The session is specified the `hhmm-hhmm` format and adjusted to the chosen time zone.",
+        "type" : "text"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "extendPocRight",
+        "name" : "Extend POC Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVAHRight",
+        "name" : "Extend VAH Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVALRight",
+        "name" : "Extend VAL Right",
+        "type" : "bool"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "VPSVr",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "left_to_right",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        },
+        "polygons" : {
+          "histBoxBg" : {
+            "color" : "#37a6ef",
+            "transparency" : 94
+          }
+        }
+      },
+      "inputs" : {
+        "customSession" : "0930-1600",
+        "customSessionTZ" : "Exchange",
+        "extendPocRight" : false,
+        "extendVAHRight" : false,
+        "extendVALRight" : false,
+        "first_visible_bar_time" : 0,
+        "last_visible_bar_time" : 0,
+        "mapRightBoundaryToBarStartTime" : false,
+        "profilesSessions" : "All",
+        "subscribeRealtime" : true,
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Session Volume Profile HD",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "absolute",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "absolute",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : false
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : false
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : false
+        }
+      },
+      "polygons" : {
+        "histBoxBg" : {
+          "mouseTouchable" : false,
+          "name" : "Histogram Box",
+          "showBorder" : false
+        }
+      }
+    },
+    "id" : "VbPSessionsRoughDetailed@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "mapRightBoundaryToBarStartTime",
+        "isHidden" : true,
+        "name" : "mapRightBoundary",
+        "type" : "bool"
+      },
+      {
+        "defval" : "All",
+        "id" : "profilesSessions",
+        "name" : "Sessions",
+        "options" : [
+          "All",
+          "Each (pre-market, market, post-market)",
+          "Pre-market only",
+          "Market only",
+          "Post-market only",
+          "Custom"
+        ],
+        "tooltip" : "Determines the sessions used to build the profile: \"All\" builds one profile per day. \"Each\" builds one profile per session. \"Custom\" builds one profile for the selected period. The other choices build a profile only for that session.",
+        "type" : "text"
+      },
+      {
+        "defval" : "0930-1600",
+        "id" : "customSession",
+        "name" : "Custom session",
+        "type" : "session"
+      },
+      {
+        "defval" : "Exchange",
+        "id" : "customSessionTZ",
+        "name" : " ",
+        "options" : [
+          "Exchange",
+          "Etc\/UTC",
+          "Africa\/Cairo",
+          "Africa\/Johannesburg",
+          "Africa\/Lagos",
+          "America\/Argentina\/Buenos_Aires",
+          "America\/Bogota",
+          "America\/Caracas",
+          "America\/Chicago",
+          "America\/El_Salvador",
+          "America\/Juneau",
+          "America\/Lima",
+          "America\/Los_Angeles",
+          "America\/Mexico_City",
+          "America\/New_York",
+          "America\/Phoenix",
+          "America\/Santiago",
+          "America\/Sao_Paulo",
+          "America\/Toronto",
+          "America\/Vancouver",
+          "Asia\/Almaty",
+          "Asia\/Ashkhabad",
+          "Asia\/Bahrain",
+          "Asia\/Bangkok",
+          "Asia\/Chongqing",
+          "Asia\/Dubai",
+          "Asia\/Ho_Chi_Minh",
+          "Asia\/Hong_Kong",
+          "Asia\/Jakarta",
+          "Asia\/Jerusalem",
+          "Asia\/Kathmandu",
+          "Asia\/Kolkata",
+          "Asia\/Kuwait",
+          "Asia\/Manila",
+          "Asia\/Muscat",
+          "Asia\/Qatar",
+          "Asia\/Riyadh",
+          "Asia\/Seoul",
+          "Asia\/Shanghai",
+          "Asia\/Singapore",
+          "Asia\/Taipei",
+          "Asia\/Tehran",
+          "Asia\/Tokyo",
+          "Atlantic\/Reykjavik",
+          "Australia\/ACT",
+          "Australia\/Adelaide",
+          "Australia\/Brisbane",
+          "Australia\/Perth",
+          "Australia\/Sydney",
+          "Europe\/Athens",
+          "Europe\/Belgrade",
+          "Europe\/Berlin",
+          "Europe\/Copenhagen",
+          "Europe\/Helsinki",
+          "Europe\/Istanbul",
+          "Europe\/London",
+          "Europe\/Luxembourg",
+          "Europe\/Madrid",
+          "Europe\/Moscow",
+          "Europe\/Oslo",
+          "Europe\/Paris",
+          "Europe\/Riga",
+          "Europe\/Rome",
+          "Europe\/Stockholm",
+          "Europe\/Tallinn",
+          "Europe\/Vilnius",
+          "Europe\/Warsaw",
+          "Europe\/Zurich",
+          "Pacific\/Auckland",
+          "Pacific\/Chatham",
+          "Pacific\/Fakaofo",
+          "Pacific\/Honolulu",
+          "Pacific\/Norfolk",
+          "US\/Mountain"
+        ],
+        "tooltip" : "If the `Sessions` input is set to `Custom`, this input modifies starting and ending times of each volume profile. The session is specified the `hhmm-hhmm` format and adjusted to the chosen time zone.",
+        "type" : "text"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "extendPocRight",
+        "name" : "Extend POC Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVAHRight",
+        "name" : "Extend VAH Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "extendVALRight",
+        "name" : "Extend VAL Right",
+        "type" : "bool"
+      },
+      {
+        "defval" : 0,
+        "id" : "first_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "First Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 0,
+        "id" : "last_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Last Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : true,
+        "id" : "subscribeRealtime",
+        "isHidden" : true,
+        "name" : "SubscribeRealtime",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "SVP HD",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "hhists" : {
+          "histBars2" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "right_to_left",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              75,
+              75
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          },
+          "histBarsVA" : {
+            "colors" : [
+              "#2962ff",
+              "#fbc02d"
+            ],
+            "direction" : "right_to_left",
+            "percentWidth" : 30,
+            "showValues" : false,
+            "transparencies" : [
+              30,
+              30
+            ],
+            "valuesColor" : "#424242",
+            "visible" : true
+          }
+        },
+        "horizlines" : {
+          "pocLines" : {
+            "color" : "#f44336",
+            "style" : 0,
+            "visible" : true,
+            "width" : 2
+          },
+          "vahLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          },
+          "valLines" : {
+            "color" : "#2962ff",
+            "style" : 0,
+            "visible" : false,
+            "width" : 2
+          }
+        }
+      },
+      "inputs" : {
+        "first_visible_bar_time" : 0,
+        "last_visible_bar_time" : 0,
+        "rows" : 24,
+        "rowsLayout" : "Number Of Rows",
+        "subscribeRealtime" : true,
+        "vaVolume" : 70,
+        "volume" : "Up\/Down"
+      },
+      "styles" : {
+        "developingPoc" : {
+          "color" : "#f44336",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVAHigh" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        },
+        "developingVALow" : {
+          "color" : "#2962ff",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 9,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : false
+        }
+      }
+    },
+    "description" : "Visible Range Volume Profile",
+    "extra" : {
+      "isPro" : true
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "hhists" : {
+        "histBars2" : {
+          "location" : "relative",
+          "title" : "Volume Profile",
+          "titles" : [
+            "Up Volume",
+            "Down Volume"
+          ]
+        },
+        "histBarsVA" : {
+          "location" : "relative",
+          "title" : "Value Area",
+          "titles" : [
+            "Value Area Up",
+            "Value Area Down"
+          ]
+        }
+      },
+      "horizlines" : {
+        "pocLines" : {
+          "name" : "POC",
+          "showPrice" : true
+        },
+        "vahLines" : {
+          "name" : "VAH",
+          "showPrice" : true
+        },
+        "valLines" : {
+          "name" : "VAL",
+          "showPrice" : true
+        }
+      }
+    },
+    "id" : "VbPVisible@tv-volumebyprice-94",
+    "inputs" : [
+      {
+        "defval" : "Number Of Rows",
+        "id" : "rowsLayout",
+        "name" : "Rows Layout",
+        "options" : [
+          "Number Of Rows",
+          "Ticks Per Row"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 24,
+        "id" : "rows",
+        "max" : 1000000,
+        "min" : 1,
+        "name" : "Row Size",
+        "type" : "integer"
+      },
+      {
+        "defval" : "Up\/Down",
+        "id" : "volume",
+        "name" : "Volume",
+        "options" : [
+          "Up\/Down",
+          "Total",
+          "Delta"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 0,
+        "id" : "first_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "First Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 0,
+        "id" : "last_visible_bar_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Last Visible Bar Time",
+        "type" : "time"
+      },
+      {
+        "defval" : 70,
+        "id" : "vaVolume",
+        "max" : 100,
+        "min" : 0,
+        "name" : "Value Area Volume",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "id" : "subscribeRealtime",
+        "isHidden" : true,
+        "name" : "SubscribeRealtime",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "plots" : [
+      {
+        "id" : "developingPoc",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVAHigh",
+        "type" : "line"
+      },
+      {
+        "id" : "developingVALow",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "VRVP",
+    "styles" : {
+      "developingPoc" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing Poc"
+      },
+      "developingVAHigh" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA High"
+      },
+      "developingVALow" : {
+        "histogramBase" : 0.0,
+        "title" : "Developing VA Low"
+      }
+    }
+  }
+]
