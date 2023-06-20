@@ -1,0 +1,4255 @@
+[
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(0, 188, 212, 0.15)",
+        "Color Extend Line" : "rgba(0, 188, 212, 1)",
+        "Color Graph" : "rgba(0, 188, 212, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(0, 188, 212, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Permissible Deviation" : 15.0,
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2
+      }
+    },
+    "description" : "Bearish Flag Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "BearishFlagCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 15.0,
+        "group" : "Settings",
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "tooltip" : "The maximum allowable deviation of points from the lines of the parallel flag channel as a percentage of the channel height.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(0, 188, 212, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(0, 188, 212, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Flag",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(0, 188, 212, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(0, 188, 212, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Bearish Flag"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(103, 58, 183, 0.15)",
+        "Color Extend Line" : "rgba(103, 58, 183, 1)",
+        "Color Graph" : "rgba(103, 58, 183, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(103, 58, 183, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Permissible Deviation" : 15.0,
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2
+      }
+    },
+    "description" : "Bullish Flag Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "BullishFlagCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 15.0,
+        "group" : "Settings",
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "tooltip" : "The maximum allowable deviation of points from the lines of the parallel flag channel as a percentage of the channel height.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Flag",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Bullish Flag"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Color Graph" : "rgba(255, 109, 0, 1)",
+        "Invert Pattern" : false,
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "use fibonacci levels" : false
+      }
+    },
+    "description" : "Crab Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : true,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "CrabCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "Invert Pattern",
+        "name" : "Invert Pattern",
+        "tooltip" : "Flip the pattern vertically.",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "use fibonacci levels",
+        "name" : "Use fibonacci levels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(255, 109, 0, 1)",
+        "id" : "Color Graph",
+        "name" : "Price Line",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Crab"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Color Graph" : "rgba(255, 109, 0, 1)",
+        "Invert Pattern" : false,
+        "Patterns" : "All",
+        "Permissible Deviation" : 2.0,
+        "Price Targets" : "All",
+        "Source" : "ohlc4"
+      }
+    },
+    "description" : "Cup with Handle Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : true,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "CupWithHandleCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "Invert Pattern",
+        "name" : "Invert Pattern",
+        "tooltip" : "Flip the pattern vertically.",
+        "type" : "bool"
+      },
+      {
+        "defval" : 2.0,
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "type" : "float"
+      },
+      {
+        "defval" : "rgba(255, 109, 0, 1)",
+        "id" : "Color Graph",
+        "name" : "Price Line",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Cup with Handle"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(8, 153, 129, 0.15)",
+        "Color Extend Line" : "rgba(8, 153, 129, 1)",
+        "Color Graph" : "rgba(8, 153, 129, 1)",
+        "In Progress" : true,
+        "Label Background color" : "rgba(8, 153, 129, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Neck Line Style" : "Dotted",
+        "Patterns" : "All",
+        "Permissible Deviation" : 10.0,
+        "Price Targets" : "All",
+        "Second Bottom" : "Both",
+        "Source" : "ohlc4",
+        "Trend Height" : 50.0,
+        "Width Graph" : 2,
+        "Width Neck Line" : 2
+      }
+    },
+    "description" : "Double Bottom Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "DoubleBottomCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Settings",
+        "id" : "Trend Height",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Trend Height",
+        "tooltip" : "The required minimum height of the trend preceding the pattern as a percentage of the height of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : "Both",
+        "group" : "Settings",
+        "id" : "Second Bottom",
+        "name" : "Second Bottom",
+        "options" : [
+          "Higher",
+          "Lower",
+          "Both"
+        ],
+        "tooltip" : "The position of the second bottom relative to the first. Depending on the value, patterns will be displayed in which the second bottom is higher or equal to the first, lower or equal to the first, or both of them. If 'Both' are selected and 2 overlapping patterns are detected, then the  most accurate one will be drawn.",
+        "type" : "text"
+      },
+      {
+        "defval" : 10.0,
+        "group" : "Settings",
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "tooltip" : "The maximum allowable difference in the height of the vertices. The height of the vertices is calculated as the difference between the price of the bottom and the intermediate maximum. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "NeckLine",
+        "name" : "Neck line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Dotted",
+        "group" : "Style",
+        "id" : "Neck Line Style",
+        "inline" : "NeckLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Neck Line",
+        "inline" : "NeckLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Double Bottom"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(233, 30, 99, 0.15)",
+        "Color Extend Line" : "rgba(233, 30, 99, 1)",
+        "Color Graph" : "rgba(233, 30, 99, 1)",
+        "In Progress" : true,
+        "Label Background color" : "rgba(233, 30, 99, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Neck Line Style" : "Dotted",
+        "Patterns" : "All",
+        "Permissible Deviation" : 10.0,
+        "Price Targets" : "All",
+        "Second Top" : "Both",
+        "Source" : "ohlc4",
+        "Trend Height" : 50.0,
+        "Width Graph" : 2,
+        "Width Neck Line" : 2
+      }
+    },
+    "description" : "Double Top Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "DoubleTopCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Settings",
+        "id" : "Trend Height",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Trend Height",
+        "tooltip" : "The required minimum height of the trend preceding the pattern as a percentage of the height of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : "Both",
+        "group" : "Settings",
+        "id" : "Second Top",
+        "name" : "Second Top",
+        "options" : [
+          "Higher",
+          "Lower",
+          "Both"
+        ],
+        "tooltip" : "The position of the second top relative to the first. Depending on the value, patterns will be displayed in which the second top is higher or equal to the first, lower or equal to the first, or both of them.  If 'Both' are selected and 2 overlapping patterns are detected, then the most accurate one will be drawn.",
+        "type" : "text"
+      },
+      {
+        "defval" : 10.0,
+        "group" : "Settings",
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "tooltip" : "The maximum allowable difference in the height of the vertices. The height of the vertices is calculated as the difference between the price of the top and the intermediate minimum. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "NeckLine",
+        "name" : "Neck line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Dotted",
+        "group" : "Style",
+        "id" : "Neck Line Style",
+        "inline" : "NeckLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Neck Line",
+        "inline" : "NeckLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Double Top"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "CorrectiveBase" : "rgba(41, 98, 255, 1)",
+        "CorrectiveSubWaves" : "rgba(255, 152, 0, 1)",
+        "In Progress" : true,
+        "Invert Pattern" : false,
+        "Length type: " : "Absolute",
+        "MotiveBase" : "rgba(41, 98, 255, 1)",
+        "MotiveSubWaves" : "rgba(255, 152, 0, 1)",
+        "Show Projections" : true,
+        "Source" : "ohlc4"
+      }
+    },
+    "description" : "Elliott Wave Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "ElliottWaveCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : false,
+        "group" : "Settings",
+        "id" : "Invert Pattern",
+        "name" : "Invert Pattern",
+        "tooltip" : "Flip the pattern vertically.",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "Show Projections",
+        "name" : "Show Projections",
+        "tooltip" : "Display of the expected levels of the future wave.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "Absolute",
+        "group" : "Settings",
+        "id" : "Length type: ",
+        "name" : "Length type: ",
+        "options" : [
+          "Absolute",
+          "Percent"
+        ],
+        "tooltip" : "The values used to measure wavelengths when evaluating the pattern recognition rules.",
+        "type" : "text"
+      },
+      {
+        "defval" : "rgba(41, 98, 255, 1)",
+        "group" : "Main Waves",
+        "id" : "MotiveBase",
+        "inline" : "Base Wave",
+        "name" : "Motive",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(41, 98, 255, 1)",
+        "group" : "Main Waves",
+        "id" : "CorrectiveBase",
+        "inline" : "Base Wave",
+        "name" : "Corrective",
+        "tooltip" : "(1), (2), (3), (4), (5), (a), (b), (c).",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 152, 0, 1)",
+        "group" : "SubWaves",
+        "id" : "MotiveSubWaves",
+        "inline" : "SubWaves Wave",
+        "name" : "Motive",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 152, 0, 1)",
+        "group" : "SubWaves",
+        "id" : "CorrectiveSubWaves",
+        "inline" : "SubWaves Wave",
+        "name" : "Corrective",
+        "tooltip" : "1, 2, 3, 4, 5, a, b, c.",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Elliott Wave"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(156, 39, 176, 0.15)",
+        "Color Extend Line" : "rgba(156, 39, 176, 1)",
+        "Color Graph" : "rgba(156, 39, 176, 1)",
+        "In Progress" : true,
+        "Label Background color" : "rgba(156, 39, 176, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Maximum slope of the neck line" : 15.0,
+        "Minimum required difference" : 20.0,
+        "Neck Line Style" : "Dotted",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Shoulders height maximum difference" : 30.0,
+        "Shoulders width maximum difference" : 60.0,
+        "Source" : "ohlc4",
+        "Trend Height" : 50.0,
+        "Width Graph" : 2,
+        "Width Neck Line" : 2
+      }
+    },
+    "description" : "Head And Shoulders Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "HeadAndShouldersCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Settings",
+        "id" : "Trend Height",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Trend Height",
+        "tooltip" : "The required minimum height of the trend preceding the pattern as a percentage of the height of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : 20.0,
+        "group" : "Settings",
+        "id" : "Minimum required difference",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Minimum required difference",
+        "tooltip" : "The minimum required height difference between the head and shoulders. The height of the shoulder or head is calculated as the difference between the value of the pivot in which the shoulder or head is located and the value of the neck line on the same bar. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : 15.0,
+        "group" : "Settings",
+        "id" : "Maximum slope of the neck line",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Maximum slope of the neck line",
+        "tooltip" : "The maximum allowable difference in the height of the left and right segment of the head in percent.",
+        "type" : "float"
+      },
+      {
+        "defval" : 30.0,
+        "group" : "Settings",
+        "id" : "Shoulders height maximum difference",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Shoulders height maximum difference",
+        "tooltip" : "The maximum allowable height difference between the shoulders. Shoulder height is calculated as the difference between the value of the pivot point where the shoulder is located and the value of the neck line on the same bar. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : 60.0,
+        "group" : "Settings",
+        "id" : "Shoulders width maximum difference",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Shoulders width maximum difference",
+        "tooltip" : "The maximum allowable width difference between the shoulders. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(156, 39, 176, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(156, 39, 176, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "NeckLine",
+        "name" : "Neck line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Dotted",
+        "group" : "Style",
+        "id" : "Neck Line Style",
+        "inline" : "NeckLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Neck Line",
+        "inline" : "NeckLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(156, 39, 176, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(156, 39, 176, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Head And Shoulders"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(76, 175, 80, 0.15)",
+        "Color Extend Line" : "rgba(76, 175, 80, 1)",
+        "Color Graph" : "rgba(76, 175, 80, 1)",
+        "In Progress" : true,
+        "Label Background color" : "rgba(76, 175, 80, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Maximum slope of the neck line" : 15.0,
+        "Minimum required difference" : 20.0,
+        "Neck Line Style" : "Dotted",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Shoulders height maximum difference" : 30.0,
+        "Shoulders width maximum difference" : 60.0,
+        "Source" : "ohlc4",
+        "Trend Height" : 50.0,
+        "Width Graph" : 2,
+        "Width Neck Line" : 2
+      }
+    },
+    "description" : "Inverse Head And Shoulders Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "HeadAndShouldersInverseCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Settings",
+        "id" : "Trend Height",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Trend Height",
+        "tooltip" : "The required minimum height of the trend preceding the pattern as a percentage of the height of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : 20.0,
+        "group" : "Settings",
+        "id" : "Minimum required difference",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Minimum required difference",
+        "tooltip" : "The minimum required height difference between the head and shoulders. The height of the shoulder or head is calculated as the difference between the value of the pivot in which the shoulder or head is located and the value of the neck line on the same bar. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : 15.0,
+        "group" : "Settings",
+        "id" : "Maximum slope of the neck line",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Maximum slope of the neck line",
+        "tooltip" : "The maximum allowable difference in the height of the left and right segment of the head in percent.",
+        "type" : "float"
+      },
+      {
+        "defval" : 30.0,
+        "group" : "Settings",
+        "id" : "Shoulders height maximum difference",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Shoulders height maximum difference",
+        "tooltip" : "The maximum allowable height difference between the shoulders. Shoulder height is calculated as the difference between the value of the pivot point where the shoulder is located and the value of the neck line on the same bar. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : 60.0,
+        "group" : "Settings",
+        "id" : "Shoulders width maximum difference",
+        "isHidden" : true,
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Shoulders width maximum difference",
+        "tooltip" : "The maximum allowable width difference between the shoulders. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "NeckLine",
+        "name" : "Neck line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Dotted",
+        "group" : "Style",
+        "id" : "Neck Line Style",
+        "inline" : "NeckLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Neck Line",
+        "inline" : "NeckLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Inverse Head And Shoulders"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(242, 54, 69, 0.15)",
+        "Color Extend Line" : "rgba(242, 54, 69, 1)",
+        "Color Graph" : "rgba(242, 54, 69, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(242, 54, 69, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2
+      }
+    },
+    "description" : "Bearish Pennant Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "PennantBearishCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Pennant",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Bearish Pennant"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(8, 153, 129, 0.15)",
+        "Color Extend Line" : "rgba(8, 153, 129, 1)",
+        "Color Graph" : "rgba(8, 153, 129, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(8, 153, 129, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2
+      }
+    },
+    "description" : "Bullish Pennant Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "PennantBullishCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Pennant",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(8, 153, 129, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Bullish Pennant"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(255, 152, 0, 0.15)",
+        "Color Extend Line" : "rgba(255, 152, 0, 1)",
+        "Color Graph" : "rgba(255, 152, 0, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(255, 152, 0, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Permissible Deviation" : 5.0,
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2
+      }
+    },
+    "description" : "Rectangle Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "RectangleCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 5.0,
+        "group" : "Settings",
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "tooltip" : "The maximum allowable deviation of a point from the horizontal line of the rectangle as a percentage of the height of the rectangle.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(255, 152, 0, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(255, 152, 0, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Rectangle",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(255, 152, 0, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(255, 152, 0, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Rectangle"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Color Graph" : "rgba(255, 109, 0, 1)",
+        "Invert Pattern" : false,
+        "Patterns" : "All",
+        "Permissible Deviation" : 2.0,
+        "Price Targets" : "All",
+        "Source" : "ohlc4"
+      }
+    },
+    "description" : "Rounding Bottom Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : true,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "RoundingBottomCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "Invert Pattern",
+        "name" : "Invert Pattern",
+        "tooltip" : "Flip the pattern vertically.",
+        "type" : "bool"
+      },
+      {
+        "defval" : 2.0,
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "type" : "float"
+      },
+      {
+        "defval" : "rgba(255, 109, 0, 1)",
+        "id" : "Color Graph",
+        "name" : "Price Line",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Rounding Bottom"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(41, 98, 255, 0.15)",
+        "Color Extend Line" : "rgba(41, 98, 255, 1)",
+        "Color Graph" : "rgba(41, 98, 255, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(41, 98, 255, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Permissible Deviation" : 5.0,
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2
+      }
+    },
+    "description" : "Triangle Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "TriangleCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 5.0,
+        "group" : "Settings",
+        "id" : "Permissible Deviation",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Permissible Deviation",
+        "tooltip" : "Maximum allowable deviation of the midpoint.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(41, 98, 255, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(41, 98, 255, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Triangle",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(41, 98, 255, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(41, 98, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Triangle"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(103, 58, 183, 0.15)",
+        "Bottoms" : 10.0,
+        "Color Extend Line" : "rgba(103, 58, 183, 1)",
+        "Color Graph" : "rgba(103, 58, 183, 1)",
+        "In Progress" : true,
+        "Intermediate Maxima" : 50.0,
+        "Label Background color" : "rgba(103, 58, 183, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Neck Line Style" : "Dotted",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Trend Height" : 50.0,
+        "Width Graph" : 2,
+        "Width Neck Line" : 2
+      }
+    },
+    "description" : "Triple Bottom Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "TripleBottomCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Settings",
+        "id" : "Trend Height",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Trend Height",
+        "tooltip" : "The required minimum height of the trend preceding the pattern as a percentage of the height of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : 10.0,
+        "group" : "Permissible Deviation",
+        "id" : "Bottoms",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Bottoms",
+        "tooltip" : "The maximum permissible difference in the depth of the bottoms. The depth of the bottoms is calculated as the difference between the price of the bottom and the maximum of the intermediate highs. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Permissible Deviation",
+        "id" : "Intermediate Maxima",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Intermediate Maxima",
+        "tooltip" : "The maximum permissible difference in the height of the intermediate maxima. The height of the maximum is calculated as the difference between the price of the lowest bottom and the intermediate maximum.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "NeckLine",
+        "name" : "Neck line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Dotted",
+        "group" : "Style",
+        "id" : "Neck Line Style",
+        "inline" : "NeckLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Neck Line",
+        "inline" : "NeckLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(103, 58, 183, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Triple Bottom"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(233, 30, 99, 0.15)",
+        "Color Extend Line" : "rgba(233, 30, 99, 1)",
+        "Color Graph" : "rgba(233, 30, 99, 1)",
+        "In Progress" : true,
+        "Intermediate Minima" : 50.0,
+        "Label Background color" : "rgba(233, 30, 99, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Neck Line Style" : "Dotted",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Tops" : 10.0,
+        "Trend Height" : 50.0,
+        "Width Graph" : 2,
+        "Width Neck Line" : 2
+      }
+    },
+    "description" : "Triple Top Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "TripleTopCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Settings",
+        "id" : "Trend Height",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Trend Height",
+        "tooltip" : "The required minimum height of the trend preceding the pattern as a percentage of the height of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : 10.0,
+        "group" : "Permissible Deviation",
+        "id" : "Tops",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Tops",
+        "tooltip" : "The maximum permissible difference in the height of the tops. The height of the tops is calculated as the difference between the price of the top and the minimum of the intermediate minima. Percentage value.",
+        "type" : "float"
+      },
+      {
+        "defval" : 50.0,
+        "group" : "Permissible Deviation",
+        "id" : "Intermediate Minima",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Intermediate Minima",
+        "tooltip" : "The maximum permissible difference in the depth of the intermediate minima. The depth of the minimum is calculated as the difference between the price of the highest top and the intermediate minimum.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "NeckLine",
+        "name" : "Neck line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Dotted",
+        "group" : "Style",
+        "id" : "Neck Line Style",
+        "inline" : "NeckLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Neck Line",
+        "inline" : "NeckLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(233, 30, 99, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Triple Top"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(242, 54, 69, 0.15)",
+        "Channel Width Ratio Start\/End" : 25.0,
+        "Color Extend Line" : "rgba(242, 54, 69, 1)",
+        "Color Graph" : "rgba(242, 54, 69, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(242, 54, 69, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2,
+        "flip vertically" : false
+      }
+    },
+    "description" : "Falling Wedge Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "WedgeFallingCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 25.0,
+        "group" : "Settings",
+        "id" : "Channel Width Ratio Start\/End",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Channel Width Ratio Start\/End",
+        "tooltip" : "The minimum percentage difference between the channel height at the beginning and at the end of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "group" : "Settings",
+        "id" : "flip vertically",
+        "isHidden" : true,
+        "name" : "Change Pivots Sequence",
+        "tooltip" : "Change the sequence of highs and lows in the price line.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Wedge",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(242, 54, 69, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Falling Wedge"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglinefills" : {
+          "lineFills" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "Background" : true,
+        "Background color" : "rgba(76, 175, 80, 0.15)",
+        "Channel Width Ratio Start\/End" : 25.0,
+        "Color Extend Line" : "rgba(76, 175, 80, 1)",
+        "Color Graph" : "rgba(76, 175, 80, 1)",
+        "Extend Line Style" : "Solid",
+        "In Progress" : true,
+        "Label Background color" : "rgba(76, 175, 80, 1)",
+        "Label Text color" : "rgba(255, 255, 255, 1)",
+        "Labels" : true,
+        "Line Style" : "Solid",
+        "Patterns" : "All",
+        "Price Targets" : "All",
+        "Source" : "ohlc4",
+        "Width Extend Line" : 2,
+        "Width Graph" : 2,
+        "flip vertically" : false
+      }
+    },
+    "description" : "Rising Wedge Chart Pattern",
+    "extra" : {
+      "isAuto" : true,
+      "isBeta" : false,
+      "isChartPattern" : true,
+      "isNew" : false,
+      "isPro" : true,
+      "isUpdated" : true
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglinefills" : {
+        "lineFills" : {
+          "name" : "lineFills",
+          "title" : "lineFills"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "WedgeRisingCP@tv-chart_patterns-12",
+    "inputs" : [
+      {
+        "defval" : "ohlc4",
+        "id" : "Source",
+        "isHidden" : true,
+        "name" : "Source",
+        "options" : [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "tooltip" : "Source for primary pattern recognition by the algorithm.",
+        "type" : "source"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Patterns",
+        "name" : "Patterns",
+        "options" : [
+          "All",
+          "Awaiting and Reached",
+          "Only Awaiting",
+          "Last Awaiting"
+        ],
+        "tooltip" : "Defines the rendering of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : "All",
+        "group" : "Visibility",
+        "id" : "Price Targets",
+        "name" : "Price Targets",
+        "options" : [
+          "All",
+          "Only Awaiting",
+          "Awaiting and Reached",
+          "None"
+        ],
+        "tooltip" : "Defines the rendering of price targets of patterns depending on their status.",
+        "type" : "text"
+      },
+      {
+        "defval" : 25.0,
+        "group" : "Settings",
+        "id" : "Channel Width Ratio Start\/End",
+        "max" : 100.0,
+        "min" : 0.0,
+        "name" : "Channel Width Ratio Start\/End",
+        "tooltip" : "The minimum percentage difference between the channel height at the beginning and at the end of the pattern.",
+        "type" : "float"
+      },
+      {
+        "defval" : true,
+        "group" : "Settings",
+        "id" : "In Progress",
+        "name" : "In Progress",
+        "tooltip" : "Enable the search for incomplete patterns that are in the process of being formed.",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "group" : "Settings",
+        "id" : "flip vertically",
+        "isHidden" : true,
+        "name" : "Change Pivots Sequence",
+        "tooltip" : "Change the sequence of highs and lows in the price line.",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 1)",
+        "group" : "Style",
+        "id" : "Color Graph",
+        "inline" : "LinesGroup",
+        "name" : "Price Line",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Line Style",
+        "inline" : "LinesGroup",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Graph",
+        "inline" : "LinesGroup",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 1)",
+        "group" : "Style",
+        "id" : "Color Extend Line",
+        "inline" : "ExtendLine",
+        "name" : "Wedge",
+        "type" : "color"
+      },
+      {
+        "defval" : "Solid",
+        "group" : "Style",
+        "id" : "Extend Line Style",
+        "inline" : "ExtendLine",
+        "name" : " ",
+        "options" : [
+          "Solid",
+          "Dotted",
+          "Dashed",
+          "Arrow_Both",
+          "Arrow_Left",
+          "Arrow_Right"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 2,
+        "group" : "Style",
+        "id" : "Width Extend Line",
+        "inline" : "ExtendLine",
+        "max" : 10,
+        "min" : 1,
+        "name" : " ",
+        "type" : "integer"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Background",
+        "inline" : "BackgroundColor",
+        "name" : "Background",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 0.15)",
+        "group" : "Style",
+        "id" : "Background color",
+        "inline" : "BackgroundColor",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : true,
+        "group" : "Style",
+        "id" : "Labels",
+        "inline" : "LabelsGroup",
+        "name" : "Labels",
+        "type" : "bool"
+      },
+      {
+        "defval" : "rgba(76, 175, 80, 1)",
+        "group" : "Style",
+        "id" : "Label Background color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      },
+      {
+        "defval" : "rgba(255, 255, 255, 1)",
+        "group" : "Style",
+        "id" : "Label Text color",
+        "inline" : "LabelsGroup",
+        "name" : " ",
+        "type" : "color"
+      }
+    ],
+    "isRGB" : true,
+    "is_price_study" : true,
+    "linkedToSeries" : true,
+    "shortDescription" : "Rising Wedge"
+  }
+]
