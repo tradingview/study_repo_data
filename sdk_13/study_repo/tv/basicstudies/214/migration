@@ -1,0 +1,52 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "rollrules",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "from",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "to",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "currtime",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "restrictions",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "recalculating",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetCC@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "rollrules",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetCCRollDatesCalculator@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "213",
+  "versTo" : "214"
+}
