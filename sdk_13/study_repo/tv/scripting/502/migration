@@ -1,0 +1,6 @@
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [ ],
+  "versFrom" : "501",
+  "versTo" : "502"
+}
