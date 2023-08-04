@@ -1,0 +1,129 @@
+[
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleBottomCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleTopCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersInverseCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBearishCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBullishCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "RectangleCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TriangleCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleBottomCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleTopCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeFallingCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeRisingCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "4",
+    "versTo" : "5"
+  }
+]
