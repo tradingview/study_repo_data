@@ -1,0 +1,67 @@
+{
+  "pkgName" : "tv-indices",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "ticker",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "correction",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetCFD@tv-indices"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "startDate",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "initialValue",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "components",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "fundamentalsSourcePrefix",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "unadjustedSuffix",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "mode",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "historySymbol",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "divisorSymbol",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "CapWeightedIndex@tv-indices"
+    }
+  ],
+  "versFrom" : "33",
+  "versTo" : "34"
+}
