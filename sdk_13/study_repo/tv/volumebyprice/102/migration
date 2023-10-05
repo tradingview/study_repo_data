@@ -1,0 +1,42 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "periodsNum",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "period",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "blockSize",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "rowSize",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "ticksPerRow",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "vaPercent",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TPOPeriodic@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "101",
+  "versTo" : "102"
+}
