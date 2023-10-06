@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-chart_patterns",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Price target",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BearishFlagCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Price target",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BullishFlagCP@tv-chart_patterns"
+    }
+  ],
+  "versFrom" : "25",
+  "versTo" : "26"
+}
