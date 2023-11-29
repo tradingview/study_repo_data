@@ -1,0 +1,123 @@
+[
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "67",
+    "versTo" : "68"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "70",
+    "versTo" : "71"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "userProPlan",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "userProPlan",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Internal@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "userProPlan",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "userProPlan",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "520",
+    "versTo" : "521"
+  }
+]
