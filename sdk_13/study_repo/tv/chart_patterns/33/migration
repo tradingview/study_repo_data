@@ -1,0 +1,127 @@
+{
+  "pkgName" : "tv-chart_patterns",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Breakout Bars",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Up Trend Color",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Down Trend Color",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Line Style",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Width Graph",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Show Labels",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Up Trend Points",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Down Trend Points",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "low deviation",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "low depth",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Show ZigZag",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "zig zag color",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "AutoTrendlinesCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Breakout Bars",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Up Trend Color",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Down Trend Color",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Line Style",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Width Graph",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Show Labels",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Up Trend Points",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Down Trend Points",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "AutoTrendsCP@tv-chart_patterns"
+    }
+  ],
+  "versFrom" : "32",
+  "versTo" : "33"
+}
