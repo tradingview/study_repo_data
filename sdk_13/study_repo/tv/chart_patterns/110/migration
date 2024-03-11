@@ -1,0 +1,57 @@
+{
+  "pkgName" : "tv-chart_patterns",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Breakout Bars",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Up Trend Color",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Down Trend Color",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Line Style",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Width Graph",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Show Labels",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Up Trend Points",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Down Trend Points",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "AutoTrendlinesCP@tv-chart_patterns"
+    }
+  ],
+  "versFrom" : "109",
+  "versTo" : "110"
+}
