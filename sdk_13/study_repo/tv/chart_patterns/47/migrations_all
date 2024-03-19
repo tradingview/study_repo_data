@@ -1,0 +1,586 @@
+[
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BearishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BullishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleBottomCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleTopCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersInverseCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBearishCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBullishCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "RectangleCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TriangleCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleBottomCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleTopCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeFallingCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeRisingCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "10",
+    "versTo" : "11"
+  },
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BearishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BullishFlagCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "25",
+    "versTo" : "26"
+  },
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Breakout Bars",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "low deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "low depth",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show ZigZag",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "zig zag color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "AutoTrendlinesCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Breakout Bars",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Points",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "AutoTrendsCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "32",
+    "versTo" : "33"
+  },
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BearishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BullishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBearishCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBullishCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "39",
+    "versTo" : "40"
+  },
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Breakout Bars",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Points",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "AutoTrendlinesCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "40",
+    "versTo" : "41"
+  },
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BearishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BullishFlagCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBearishCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Max Rollback",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBullishCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "44",
+    "versTo" : "45"
+  },
+  {
+    "pkgName" : "tv-chart_patterns",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Breakout Bars",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "low deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "low depth",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show ZigZag",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "zig zag color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "proportionExtend",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "AutoTrendlinesCP@tv-chart_patterns"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Breakout Bars",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Up Trend Points",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Down Trend Points",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "AutoTrendsCP@tv-chart_patterns"
+      }
+    ],
+    "versFrom" : "46",
+    "versTo" : "47"
+  }
+]
