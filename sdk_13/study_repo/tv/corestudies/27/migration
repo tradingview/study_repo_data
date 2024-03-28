@@ -1,0 +1,6 @@
+{
+  "pkgName" : "tv-corestudies",
+  "studyMigrations" : [ ],
+  "versFrom" : "26",
+  "versTo" : "27"
+}
