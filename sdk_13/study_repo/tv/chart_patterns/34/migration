@@ -1,0 +1,42 @@
+{
+  "pkgName" : "tv-chart_patterns",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "Source",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Patterns",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Price Targets",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Invert Pattern",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Permissible Deviation",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "Color Graph",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "CupWithHandleCP@tv-chart_patterns"
+    }
+  ],
+  "versFrom" : "33",
+  "versTo" : "34"
+}
