@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "symbol",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Seasonals@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "236",
+  "versTo" : "237"
+}
