@@ -1,0 +1,128 @@
+[
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "67",
+    "versTo" : "68"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "70",
+    "versTo" : "71"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "logToken",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "userProPlan",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "initial_capital",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "currency",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "commission_type",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "commission_value",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "recoveryState",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "text",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ReplayStrategy@tv-scripting"
+      }
+    ],
+    "versFrom" : "600",
+    "versTo" : "601"
+  }
+]
