@@ -1,0 +1,172 @@
+[
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "67",
+    "versTo" : "68"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "70",
+    "versTo" : "71"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "logToken",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ReplayStrategy@tv-scripting"
+      }
+    ],
+    "versFrom" : "631",
+    "versTo" : "632"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "currency",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "transactions",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "transactions_zip",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "trade_transactions",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "trade_transactions_zip",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "cash_transactions",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "cash_transactions_zip",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "initial_capital",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "risk_free_rate",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "text",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Portfolio@tv-scripting"
+      }
+    ],
+    "versFrom" : "635",
+    "versTo" : "636"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "logToken",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ReplayStrategy@tv-scripting"
+      }
+    ],
+    "versFrom" : "638",
+    "versTo" : "639"
+  }
+]
