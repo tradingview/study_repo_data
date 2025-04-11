@@ -1,0 +1,537 @@
+{
+  "pkgName" : "tv-chart_patterns",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "BearishFlagCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "BullishFlagCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "CupAndHandleCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "CupAndHandleInverseCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Dotted",
+          "inputId" : "Neck Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "DoubleBottomCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Dotted",
+          "inputId" : "Neck Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "DoubleTopCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Dotted",
+          "inputId" : "Neck Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "HeadAndShouldersCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Dotted",
+          "inputId" : "Neck Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "HeadAndShouldersInverseCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "PennantBearishCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "PennantBullishCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "RectangleCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "TriangleCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Dotted",
+          "inputId" : "Neck Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "TripleBottomCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Dotted",
+          "inputId" : "Neck Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "TripleTopCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "WedgeFallingCP@tv-chart_patterns"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        },
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "Solid",
+          "inputId" : "Extend Line Style",
+          "inputType" : "text",
+          "options" : [
+            "Solid",
+            "Dotted",
+            "Dashed",
+            "Arrow (both)",
+            "Arrow (left)",
+            "Arrow (right)"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "WedgeRisingCP@tv-chart_patterns"
+    }
+  ],
+  "versFrom" : "41",
+  "versTo" : "42"
+}
