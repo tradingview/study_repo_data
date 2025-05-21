@@ -1,0 +1,328 @@
+[
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "ESD@tv-scripting-641",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Internal@tv-scripting-641",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "commission_type" : "percent",
+        "commission_value" : 0.0,
+        "currency" : "NONE",
+        "initial_capital" : 1000000.0,
+        "logToken" : "",
+        "recoveryState" : "{}",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "ReplayStrategy@tv-scripting-641",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      },
+      {
+        "defval" : 1000000.0,
+        "group" : "strategy_props",
+        "id" : "initial_capital",
+        "max" : 1.7976931348623157E308,
+        "min" : 0.0,
+        "name" : "Initial Capital",
+        "tooltip" : "The amount of funds initially available for the strategy to trade",
+        "type" : "float"
+      },
+      {
+        "defval" : "NONE",
+        "group" : "strategy_props",
+        "id" : "currency",
+        "name" : "Base Currency",
+        "options" : [
+          "NONE",
+          "USD",
+          "EUR",
+          "AUD",
+          "GBP",
+          "NZD",
+          "CAD",
+          "CHF",
+          "HKD",
+          "JPY",
+          "NOK",
+          "RUB",
+          "SEK",
+          "SGD",
+          "TRY",
+          "ZAR",
+          "BTC",
+          "ETH",
+          "MYR",
+          "KRW",
+          "USDT",
+          "INR"
+        ],
+        "tooltip" : "Currency used in calculations and strategy results",
+        "type" : "text"
+      },
+      {
+        "defval" : "percent",
+        "group" : "strategy_props",
+        "id" : "commission_type",
+        "name" : "Commission Type",
+        "options" : [
+          "percent",
+          "cash_per_contract",
+          "cash_per_order"
+        ],
+        "tooltip" : "Fees paid for each entry and exit",
+        "type" : "text"
+      },
+      {
+        "defval" : 0.0,
+        "group" : "strategy_props",
+        "id" : "commission_value",
+        "max" : 1.7976931348623157E308,
+        "min" : 0.0,
+        "name" : "Commission Value",
+        "type" : "float"
+      },
+      {
+        "defval" : "{}",
+        "id" : "recoveryState",
+        "name" : "RecoveryState",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Script@tv-scripting-641",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StrategyScript@tv-scripting-641",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  }
+]
