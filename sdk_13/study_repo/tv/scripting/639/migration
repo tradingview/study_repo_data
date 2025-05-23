@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "logToken",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "ReplayStrategy@tv-scripting"
+    }
+  ],
+  "versFrom" : "638",
+  "versTo" : "639"
+}
