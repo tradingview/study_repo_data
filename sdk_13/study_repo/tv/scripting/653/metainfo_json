@@ -1,0 +1,524 @@
+[
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "ESD@tv-scripting-653",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Internal@tv-scripting-653",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "autoAdjustSplits" : true,
+        "cash_transactions" : "",
+        "cash_transactions_zip" : "",
+        "currency" : "USD",
+        "initial_capital" : 0.0,
+        "portfolioId" : "",
+        "risk_free_rate" : 2.0,
+        "text" : "",
+        "trade_transactions" : "",
+        "trade_transactions_zip" : "",
+        "transactions" : "",
+        "transactions_zip" : ""
+      },
+      "styles" : {
+        "benchmark_performance" : {
+          "color" : "#1e88e5",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "benchmark_value" : {
+          "color" : "#1e88e5",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_performance" : {
+          "color" : "#1e88e5",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_value" : {
+          "color" : "#1e88e5",
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Portfolio",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Portfolio@tv-scripting-653",
+    "inputs" : [
+      {
+        "defval" : "USD",
+        "id" : "currency",
+        "name" : "Base Currency",
+        "options" : [
+          "USD",
+          "EUR",
+          "AUD",
+          "GBP",
+          "NZD",
+          "CAD",
+          "CHF",
+          "HKD",
+          "JPY",
+          "NOK",
+          "RUB",
+          "SEK",
+          "SGD",
+          "TRY",
+          "ZAR",
+          "BTC",
+          "ETH",
+          "MYR",
+          "KRW",
+          "USDT",
+          "INR",
+          "PLN",
+          "PKR",
+          "EGP"
+        ],
+        "tooltip" : "Currency used in calculations and strategy results",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "transactions",
+        "isHidden" : true,
+        "name" : "Transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "transactions_zip",
+        "isHidden" : true,
+        "name" : "Transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "trade_transactions",
+        "name" : "Trade_transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "trade_transactions_zip",
+        "name" : "Trade_transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "cash_transactions",
+        "name" : "Cash_transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "cash_transactions_zip",
+        "name" : "Cash_transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : 0.0,
+        "id" : "initial_capital",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Initial_capital",
+        "type" : "float"
+      },
+      {
+        "defval" : 2.0,
+        "id" : "risk_free_rate",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Risk_free_rate",
+        "type" : "float"
+      },
+      {
+        "defval" : "",
+        "id" : "portfolioId",
+        "isHidden" : true,
+        "name" : "PortfolioId",
+        "type" : "text"
+      },
+      {
+        "defval" : true,
+        "id" : "autoAdjustSplits",
+        "isHidden" : true,
+        "name" : "AutoAdjustSplits",
+        "type" : "bool"
+      },
+      {
+        "defval" : "",
+        "id" : "text",
+        "isHidden" : true,
+        "name" : "Text",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "portfolio_value",
+        "type" : "line"
+      },
+      {
+        "id" : "portfolio_performance",
+        "type" : "line"
+      },
+      {
+        "id" : "benchmark_value",
+        "type" : "line"
+      },
+      {
+        "id" : "benchmark_performance",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "benchmark_performance" : {
+        "histogramBase" : 0.0,
+        "title" : "Benchmark Performance"
+      },
+      "benchmark_value" : {
+        "histogramBase" : 0.0,
+        "title" : "Benchmark Value"
+      },
+      "portfolio_performance" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Performance"
+      },
+      "portfolio_value" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Value"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "commission_type" : "percent",
+        "commission_value" : 0.0,
+        "currency" : "NONE",
+        "initial_capital" : 1000000.0,
+        "recoveryState" : "{}",
+        "text" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "ReplayStrategy@tv-scripting-653",
+    "inputs" : [
+      {
+        "defval" : 1000000.0,
+        "group" : "strategy_props",
+        "id" : "initial_capital",
+        "max" : 1.7976931348623157E308,
+        "min" : 0.0,
+        "name" : "Initial Capital",
+        "tooltip" : "The amount of funds initially available for the strategy to trade",
+        "type" : "float"
+      },
+      {
+        "defval" : "NONE",
+        "group" : "strategy_props",
+        "id" : "currency",
+        "name" : "Base Currency",
+        "options" : [
+          "NONE",
+          "USD",
+          "EUR",
+          "AUD",
+          "GBP",
+          "NZD",
+          "CAD",
+          "CHF",
+          "HKD",
+          "JPY",
+          "NOK",
+          "RUB",
+          "SEK",
+          "SGD",
+          "TRY",
+          "ZAR",
+          "BTC",
+          "ETH",
+          "MYR",
+          "KRW",
+          "USDT",
+          "INR"
+        ],
+        "tooltip" : "Currency used in calculations and strategy results",
+        "type" : "text"
+      },
+      {
+        "defval" : "percent",
+        "group" : "strategy_props",
+        "id" : "commission_type",
+        "name" : "Commission Type",
+        "options" : [
+          "percent",
+          "cash_per_contract",
+          "cash_per_order"
+        ],
+        "tooltip" : "Fees paid for each entry and exit",
+        "type" : "text"
+      },
+      {
+        "defval" : 0.0,
+        "group" : "strategy_props",
+        "id" : "commission_value",
+        "max" : 1.7976931348623157E308,
+        "min" : 0.0,
+        "name" : "Commission Value",
+        "type" : "float"
+      },
+      {
+        "defval" : "{}",
+        "id" : "recoveryState",
+        "name" : "RecoveryState",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Script@tv-scripting-653",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StrategyScript@tv-scripting-653",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  }
+]
