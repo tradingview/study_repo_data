@@ -1,0 +1,54 @@
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "USD",
+          "inputId" : "currency",
+          "inputType" : "text",
+          "options" : [
+            "USD",
+            "EUR",
+            "AUD",
+            "GBP",
+            "NZD",
+            "CAD",
+            "CHF",
+            "HKD",
+            "JPY",
+            "NOK",
+            "RUB",
+            "SEK",
+            "SGD",
+            "TRY",
+            "ZAR",
+            "BTC",
+            "ETH",
+            "MYR",
+            "KRW",
+            "USDT",
+            "INR",
+            "PLN",
+            "PKR",
+            "EGP",
+            "AED",
+            "COP",
+            "MXN",
+            "CLP",
+            "BRL",
+            "ARS",
+            "PEN",
+            "IDR",
+            "SAR"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "Portfolio@tv-scripting"
+    }
+  ],
+  "versFrom" : "696",
+  "versTo" : "697"
+}
