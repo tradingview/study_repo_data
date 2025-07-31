@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "dividend_transactions",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Portfolio@tv-scripting"
+    }
+  ],
+  "versFrom" : "702",
+  "versTo" : "703"
+}
