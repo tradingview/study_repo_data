@@ -1,0 +1,143 @@
+[
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "67",
+    "versTo" : "68"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Script@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ESD@tv-scripting"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "pineId",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "StrategyScript@tv-scripting"
+      }
+    ],
+    "versFrom" : "70",
+    "versTo" : "71"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "logToken",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ReplayStrategy@tv-scripting"
+      }
+    ],
+    "versFrom" : "638",
+    "versTo" : "639"
+  },
+  {
+    "pkgName" : "tv-scripting",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "USD",
+            "inputId" : "currency",
+            "inputType" : "text",
+            "options" : [
+              "USD",
+              "EUR",
+              "AUD",
+              "GBP",
+              "NZD",
+              "CAD",
+              "CHF",
+              "HKD",
+              "JPY",
+              "NOK",
+              "RUB",
+              "SEK",
+              "SGD",
+              "TRY",
+              "ZAR",
+              "BTC",
+              "ETH",
+              "MYR",
+              "KRW",
+              "USDT",
+              "INR",
+              "PLN",
+              "PKR",
+              "EGP"
+            ],
+            "type" : "inputChangedOptions"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "dividend_transactions",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Portfolio@tv-scripting"
+      }
+    ],
+    "versFrom" : "664",
+    "versTo" : "665"
+  }
+]
