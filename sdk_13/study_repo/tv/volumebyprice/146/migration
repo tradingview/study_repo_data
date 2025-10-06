@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "customSession2",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TPOSessions@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "145",
+  "versTo" : "146"
+}
