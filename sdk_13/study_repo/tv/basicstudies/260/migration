@@ -1,0 +1,24 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "YTM",
+          "inputId" : "yield_type",
+          "inputType" : "text",
+          "options" : [
+            "YTM",
+            "YTC",
+            "YTP"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "StudyBondYield@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "259",
+  "versTo" : "260"
+}
