@@ -1,0 +1,705 @@
+[
+  {
+    "pkgName" : "tv-volumebyprice",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPFixed@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPPeriodic@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessions@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsDetailed@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsDetailedAlerts@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsRough@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsRoughDetailed@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPVisible@tv-volumebyprice"
+      }
+    ],
+    "versFrom" : "69",
+    "versTo" : "70"
+  },
+  {
+    "pkgName" : "tv-volumebyprice",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "source",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPAutoAnchored@tv-volumebyprice"
+      }
+    ],
+    "versFrom" : "84",
+    "versTo" : "85"
+  },
+  {
+    "pkgName" : "tv-volumebyprice",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPAutoAnchored@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPFixed@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPPeriodic@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPSessions@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPSessionsDetailed@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPSessionsDetailedAlerts@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPSessionsRough@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPSessionsRoughDetailed@tv-volumebyprice"
+      }
+    ],
+    "versFrom" : "92",
+    "versTo" : "93"
+  },
+  {
+    "pkgName" : "tv-volumebyprice",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Exchange",
+            "inputId" : "customSessionTZ",
+            "inputType" : "text",
+            "options" : [
+              "Exchange",
+              "Etc\/UTC",
+              "Africa\/Cairo",
+              "Africa\/Johannesburg",
+              "Africa\/Lagos",
+              "America\/Argentina\/Buenos Aires",
+              "America\/Bogota",
+              "America\/Caracas",
+              "America\/Chicago",
+              "America\/El Salvador",
+              "America\/Juneau",
+              "America\/Lima",
+              "America\/Los Angeles",
+              "America\/Mexico City",
+              "America\/New York",
+              "America\/Phoenix",
+              "America\/Santiago",
+              "America\/Sao Paulo",
+              "America\/Toronto",
+              "America\/Vancouver",
+              "Asia\/Almaty",
+              "Asia\/Ashkhabad",
+              "Asia\/Bahrain",
+              "Asia\/Bangkok",
+              "Asia\/Chongqing",
+              "Asia\/Dubai",
+              "Asia\/Ho_Chi Minh",
+              "Asia\/Hong Kong",
+              "Asia\/Jakarta",
+              "Asia\/Jerusalem",
+              "Asia\/Kathmandu",
+              "Asia\/Kolkata",
+              "Asia\/Kuwait",
+              "Asia\/Manila",
+              "Asia\/Muscat",
+              "Asia\/Qatar",
+              "Asia\/Riyadh",
+              "Asia\/Seoul",
+              "Asia\/Shanghai",
+              "Asia\/Singapore",
+              "Asia\/Taipei",
+              "Asia\/Tehran",
+              "Asia\/Tokyo",
+              "Atlantic\/Reykjavik",
+              "Australia\/ACT",
+              "Australia\/Adelaide",
+              "Australia\/Brisbane",
+              "Australia\/Perth",
+              "Australia\/Sydney",
+              "Europe\/Athens",
+              "Europe\/Belgrade",
+              "Europe\/Berlin",
+              "Europe\/Copenhagen",
+              "Europe\/Helsinki",
+              "Europe\/Istanbul",
+              "Europe\/London",
+              "Europe\/Luxembourg",
+              "Europe\/Madrid",
+              "Europe\/Moscow",
+              "Europe\/Oslo",
+              "Europe\/Paris",
+              "Europe\/Riga",
+              "Europe\/Rome",
+              "Europe\/Stockholm",
+              "Europe\/Tallinn",
+              "Europe\/Vilnius",
+              "Europe\/Warsaw",
+              "Europe\/Zurich",
+              "Pacific\/Auckland",
+              "Pacific\/Chatham",
+              "Pacific\/Fakaofo",
+              "Pacific\/Honolulu",
+              "Pacific\/Norfolk",
+              "US\/Mountain"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessions@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Exchange",
+            "inputId" : "customSessionTZ",
+            "inputType" : "text",
+            "options" : [
+              "Exchange",
+              "Etc\/UTC",
+              "Africa\/Cairo",
+              "Africa\/Johannesburg",
+              "Africa\/Lagos",
+              "America\/Argentina\/Buenos Aires",
+              "America\/Bogota",
+              "America\/Caracas",
+              "America\/Chicago",
+              "America\/El Salvador",
+              "America\/Juneau",
+              "America\/Lima",
+              "America\/Los Angeles",
+              "America\/Mexico City",
+              "America\/New York",
+              "America\/Phoenix",
+              "America\/Santiago",
+              "America\/Sao Paulo",
+              "America\/Toronto",
+              "America\/Vancouver",
+              "Asia\/Almaty",
+              "Asia\/Ashkhabad",
+              "Asia\/Bahrain",
+              "Asia\/Bangkok",
+              "Asia\/Chongqing",
+              "Asia\/Dubai",
+              "Asia\/Ho_Chi Minh",
+              "Asia\/Hong Kong",
+              "Asia\/Jakarta",
+              "Asia\/Jerusalem",
+              "Asia\/Kathmandu",
+              "Asia\/Kolkata",
+              "Asia\/Kuwait",
+              "Asia\/Manila",
+              "Asia\/Muscat",
+              "Asia\/Qatar",
+              "Asia\/Riyadh",
+              "Asia\/Seoul",
+              "Asia\/Shanghai",
+              "Asia\/Singapore",
+              "Asia\/Taipei",
+              "Asia\/Tehran",
+              "Asia\/Tokyo",
+              "Atlantic\/Reykjavik",
+              "Australia\/ACT",
+              "Australia\/Adelaide",
+              "Australia\/Brisbane",
+              "Australia\/Perth",
+              "Australia\/Sydney",
+              "Europe\/Athens",
+              "Europe\/Belgrade",
+              "Europe\/Berlin",
+              "Europe\/Copenhagen",
+              "Europe\/Helsinki",
+              "Europe\/Istanbul",
+              "Europe\/London",
+              "Europe\/Luxembourg",
+              "Europe\/Madrid",
+              "Europe\/Moscow",
+              "Europe\/Oslo",
+              "Europe\/Paris",
+              "Europe\/Riga",
+              "Europe\/Rome",
+              "Europe\/Stockholm",
+              "Europe\/Tallinn",
+              "Europe\/Vilnius",
+              "Europe\/Warsaw",
+              "Europe\/Zurich",
+              "Pacific\/Auckland",
+              "Pacific\/Chatham",
+              "Pacific\/Fakaofo",
+              "Pacific\/Honolulu",
+              "Pacific\/Norfolk",
+              "US\/Mountain"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsDetailed@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Exchange",
+            "inputId" : "customSessionTZ",
+            "inputType" : "text",
+            "options" : [
+              "Exchange",
+              "Etc\/UTC",
+              "Africa\/Cairo",
+              "Africa\/Johannesburg",
+              "Africa\/Lagos",
+              "America\/Argentina\/Buenos Aires",
+              "America\/Bogota",
+              "America\/Caracas",
+              "America\/Chicago",
+              "America\/El Salvador",
+              "America\/Juneau",
+              "America\/Lima",
+              "America\/Los Angeles",
+              "America\/Mexico City",
+              "America\/New York",
+              "America\/Phoenix",
+              "America\/Santiago",
+              "America\/Sao Paulo",
+              "America\/Toronto",
+              "America\/Vancouver",
+              "Asia\/Almaty",
+              "Asia\/Ashkhabad",
+              "Asia\/Bahrain",
+              "Asia\/Bangkok",
+              "Asia\/Chongqing",
+              "Asia\/Dubai",
+              "Asia\/Ho_Chi Minh",
+              "Asia\/Hong Kong",
+              "Asia\/Jakarta",
+              "Asia\/Jerusalem",
+              "Asia\/Kathmandu",
+              "Asia\/Kolkata",
+              "Asia\/Kuwait",
+              "Asia\/Manila",
+              "Asia\/Muscat",
+              "Asia\/Qatar",
+              "Asia\/Riyadh",
+              "Asia\/Seoul",
+              "Asia\/Shanghai",
+              "Asia\/Singapore",
+              "Asia\/Taipei",
+              "Asia\/Tehran",
+              "Asia\/Tokyo",
+              "Atlantic\/Reykjavik",
+              "Australia\/ACT",
+              "Australia\/Adelaide",
+              "Australia\/Brisbane",
+              "Australia\/Perth",
+              "Australia\/Sydney",
+              "Europe\/Athens",
+              "Europe\/Belgrade",
+              "Europe\/Berlin",
+              "Europe\/Copenhagen",
+              "Europe\/Helsinki",
+              "Europe\/Istanbul",
+              "Europe\/London",
+              "Europe\/Luxembourg",
+              "Europe\/Madrid",
+              "Europe\/Moscow",
+              "Europe\/Oslo",
+              "Europe\/Paris",
+              "Europe\/Riga",
+              "Europe\/Rome",
+              "Europe\/Stockholm",
+              "Europe\/Tallinn",
+              "Europe\/Vilnius",
+              "Europe\/Warsaw",
+              "Europe\/Zurich",
+              "Pacific\/Auckland",
+              "Pacific\/Chatham",
+              "Pacific\/Fakaofo",
+              "Pacific\/Honolulu",
+              "Pacific\/Norfolk",
+              "US\/Mountain"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsDetailedAlerts@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Exchange",
+            "inputId" : "customSessionTZ",
+            "inputType" : "text",
+            "options" : [
+              "Exchange",
+              "Etc\/UTC",
+              "Africa\/Cairo",
+              "Africa\/Johannesburg",
+              "Africa\/Lagos",
+              "America\/Argentina\/Buenos Aires",
+              "America\/Bogota",
+              "America\/Caracas",
+              "America\/Chicago",
+              "America\/El Salvador",
+              "America\/Juneau",
+              "America\/Lima",
+              "America\/Los Angeles",
+              "America\/Mexico City",
+              "America\/New York",
+              "America\/Phoenix",
+              "America\/Santiago",
+              "America\/Sao Paulo",
+              "America\/Toronto",
+              "America\/Vancouver",
+              "Asia\/Almaty",
+              "Asia\/Ashkhabad",
+              "Asia\/Bahrain",
+              "Asia\/Bangkok",
+              "Asia\/Chongqing",
+              "Asia\/Dubai",
+              "Asia\/Ho_Chi Minh",
+              "Asia\/Hong Kong",
+              "Asia\/Jakarta",
+              "Asia\/Jerusalem",
+              "Asia\/Kathmandu",
+              "Asia\/Kolkata",
+              "Asia\/Kuwait",
+              "Asia\/Manila",
+              "Asia\/Muscat",
+              "Asia\/Qatar",
+              "Asia\/Riyadh",
+              "Asia\/Seoul",
+              "Asia\/Shanghai",
+              "Asia\/Singapore",
+              "Asia\/Taipei",
+              "Asia\/Tehran",
+              "Asia\/Tokyo",
+              "Atlantic\/Reykjavik",
+              "Australia\/ACT",
+              "Australia\/Adelaide",
+              "Australia\/Brisbane",
+              "Australia\/Perth",
+              "Australia\/Sydney",
+              "Europe\/Athens",
+              "Europe\/Belgrade",
+              "Europe\/Berlin",
+              "Europe\/Copenhagen",
+              "Europe\/Helsinki",
+              "Europe\/Istanbul",
+              "Europe\/London",
+              "Europe\/Luxembourg",
+              "Europe\/Madrid",
+              "Europe\/Moscow",
+              "Europe\/Oslo",
+              "Europe\/Paris",
+              "Europe\/Riga",
+              "Europe\/Rome",
+              "Europe\/Stockholm",
+              "Europe\/Tallinn",
+              "Europe\/Vilnius",
+              "Europe\/Warsaw",
+              "Europe\/Zurich",
+              "Pacific\/Auckland",
+              "Pacific\/Chatham",
+              "Pacific\/Fakaofo",
+              "Pacific\/Honolulu",
+              "Pacific\/Norfolk",
+              "US\/Mountain"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsRough@tv-volumebyprice"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Exchange",
+            "inputId" : "customSessionTZ",
+            "inputType" : "text",
+            "options" : [
+              "Exchange",
+              "Etc\/UTC",
+              "Africa\/Cairo",
+              "Africa\/Johannesburg",
+              "Africa\/Lagos",
+              "America\/Argentina\/Buenos Aires",
+              "America\/Bogota",
+              "America\/Caracas",
+              "America\/Chicago",
+              "America\/El Salvador",
+              "America\/Juneau",
+              "America\/Lima",
+              "America\/Los Angeles",
+              "America\/Mexico City",
+              "America\/New York",
+              "America\/Phoenix",
+              "America\/Santiago",
+              "America\/Sao Paulo",
+              "America\/Toronto",
+              "America\/Vancouver",
+              "Asia\/Almaty",
+              "Asia\/Ashkhabad",
+              "Asia\/Bahrain",
+              "Asia\/Bangkok",
+              "Asia\/Chongqing",
+              "Asia\/Dubai",
+              "Asia\/Ho_Chi Minh",
+              "Asia\/Hong Kong",
+              "Asia\/Jakarta",
+              "Asia\/Jerusalem",
+              "Asia\/Kathmandu",
+              "Asia\/Kolkata",
+              "Asia\/Kuwait",
+              "Asia\/Manila",
+              "Asia\/Muscat",
+              "Asia\/Qatar",
+              "Asia\/Riyadh",
+              "Asia\/Seoul",
+              "Asia\/Shanghai",
+              "Asia\/Singapore",
+              "Asia\/Taipei",
+              "Asia\/Tehran",
+              "Asia\/Tokyo",
+              "Atlantic\/Reykjavik",
+              "Australia\/ACT",
+              "Australia\/Adelaide",
+              "Australia\/Brisbane",
+              "Australia\/Perth",
+              "Australia\/Sydney",
+              "Europe\/Athens",
+              "Europe\/Belgrade",
+              "Europe\/Berlin",
+              "Europe\/Copenhagen",
+              "Europe\/Helsinki",
+              "Europe\/Istanbul",
+              "Europe\/London",
+              "Europe\/Luxembourg",
+              "Europe\/Madrid",
+              "Europe\/Moscow",
+              "Europe\/Oslo",
+              "Europe\/Paris",
+              "Europe\/Riga",
+              "Europe\/Rome",
+              "Europe\/Stockholm",
+              "Europe\/Tallinn",
+              "Europe\/Vilnius",
+              "Europe\/Warsaw",
+              "Europe\/Zurich",
+              "Pacific\/Auckland",
+              "Pacific\/Chatham",
+              "Pacific\/Fakaofo",
+              "Pacific\/Honolulu",
+              "Pacific\/Norfolk",
+              "US\/Mountain"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPSessionsRoughDetailed@tv-volumebyprice"
+      }
+    ],
+    "versFrom" : "110",
+    "versTo" : "111"
+  },
+  {
+    "pkgName" : "tv-volumebyprice",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "showBarStatistics",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "Footprint@tv-volumebyprice"
+      }
+    ],
+    "versFrom" : "146",
+    "versTo" : "147"
+  }
+]
