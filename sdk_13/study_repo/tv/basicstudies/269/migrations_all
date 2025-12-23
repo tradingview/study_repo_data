@@ -1,0 +1,2309 @@
+[
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "smoothing",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ATR@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "49",
+    "versTo" : "50"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "source",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WilliamR@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "source",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VSTOP@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "39",
+    "versTo" : "40"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : -2,
+            "inputId" : "lower diviation",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          },
+          {
+            "action" : "resetToDefVal",
+            "defVal" : 2,
+            "inputId" : "upper diviation",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "RegressionTrend@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : -2,
+            "inputId" : "lower diviation",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          },
+          {
+            "action" : "resetToDefVal",
+            "defVal" : 2,
+            "inputId" : "upper diviation",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "LinearRegression@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "36",
+    "versTo" : "37"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : 2,
+            "inputId" : "stdDev",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "BollingerBandsR@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : 2,
+            "inputId" : "stdDev",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "BollingerBandsWidth@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "12",
+    "versTo" : "13"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : 2,
+            "inputId" : "multiplier",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "VSTOP@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "8",
+    "versTo" : "9"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "BB@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "BollingerBandsR@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "BollingerBandsWidth@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "CCI@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "src",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "chandeMO@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "ENV@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "MAExp@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "src",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "hullMA@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "KLTNR@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "LinearRegression@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "MACD@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "MAWeighted@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "MOM@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "PriceOsc@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "RSI@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "ROC@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "RegressionTrend@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "MASimple@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "RSI Source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "StochasticRSI@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "MAVolumeWeighted@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "VSTOP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : "close",
+            "inputId" : "source",
+            "inputType" : "source",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "WilliamR@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "51",
+    "versTo" : "52"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefVal",
+            "defVal" : 5.0,
+            "inputId" : "diviation (%)",
+            "inputType" : "float",
+            "type" : "inputChangedType"
+          }
+        ],
+        "studyId" : "ZigZag@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "55",
+    "versTo" : "56"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "lookBack",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "periodOne",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "periodTwo",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "periodThree",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BookerIntradayPivots@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "barsBack",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "rsiPeriod",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "momentumPeriod",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BookerKnoxvilleDivergence@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "daysBack",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "showTouched",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BookerMissedPivots@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "fastMAPeriod",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "slowMAPeriod",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "KPeriod",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "slowing",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "stochasticUpper",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "stochasticLower",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BookerReversal@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "104",
+    "versTo" : "105"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "calculate_stDev",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "AnchoredVWAP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "rollover",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "restrictions",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "currenttime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BarSetContinuous@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "expchain",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "backadjustment",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "type",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "currenttime",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "rtmaxseries",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "norecalc",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BarSetRollover@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Anchor Period",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Length",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Bands Multiplier",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VWAP Auto Anchored@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "141",
+    "versTo" : "142"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BullishFlagCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleTopCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "RectangleCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TriangleCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleTopCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Channel Width Ratio Start\/End",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "flip vertically",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeCP@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "155",
+    "versTo" : "156"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleBottomCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleTopCP@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "156",
+    "versTo" : "157"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "resetToDefValIfNeeded",
+            "defVal" : "Up\/Down",
+            "inputId" : "volume",
+            "inputType" : "text",
+            "options" : [
+              "Up\/Down",
+              "Total"
+            ],
+            "type" : "inputChangedOptions"
+          }
+        ],
+        "studyId" : "VbPFixed@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "166",
+    "versTo" : "167"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Large Waves",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ElliottWaveCP@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "174",
+    "versTo" : "175"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "rollover",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "restrictions",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "currenttime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BarSetContinuous@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "expchain",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "backadjustment",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "type",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "currenttime",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "rtmaxseries",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "norecalc",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BarSetRollover@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "186",
+    "versTo" : "187"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BearishFlagCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BullishFlagCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "use fibonacci levels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "CrabCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "CupWithHandleCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Trend Height",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Second Bottom",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Neck Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Neck Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleBottomCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Trend Height",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Second Top",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Neck Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Neck Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "DoubleTopCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Show Projections",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Length type: ",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "MotiveBase",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "CorrectiveBase",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "MotiveSubWaves",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "CorrectiveSubWaves",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "ElliottWaveCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Trend Height",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Minimum required difference",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Maximum slope of the neck line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Shoulders height maximum difference",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Shoulders width maximum difference",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Neck Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Neck Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Trend Height",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Minimum required difference",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Maximum slope of the neck line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Shoulders height maximum difference",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Shoulders width maximum difference",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Neck Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Neck Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "HeadAndShouldersInverseCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBearishCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "PennantBullishCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "RectangleCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Invert Pattern",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "RoundingBottomCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Permissible Deviation",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TriangleCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Trend Height",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Bottoms",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Intermediate Maxima",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Neck Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Neck Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleBottomCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Trend Height",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Tops",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Intermediate Minima",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Neck Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Neck Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "TripleTopCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Channel Width Ratio Start\/End",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "flip vertically",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeFallingCP@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "Source",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Channel Width Ratio Start\/End",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "In Progress",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Price target",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "flip vertically",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Graph",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Color Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Extend Line Style",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Width Extend Line",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Labels",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Background color",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "Label Text color",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "WedgeRisingCP@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "209",
+    "versTo" : "210"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mapRightBoundaryToBarStartTime",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "VbPFixed@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "211",
+    "versTo" : "212"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "rollrules",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "from",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "to",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "currtime",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "restrictions",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "recalculating",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BarSetCC@tv-basicstudies"
+      },
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "rollrules",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "BarSetCCRollDatesCalculator@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "224",
+    "versTo" : "225"
+  },
+  {
+    "pkgName" : "tv-basicstudies",
+    "studyMigrations" : [
+      {
+        "rules" : [
+          {
+            "action" : "removeVal",
+            "inputId" : "mult",
+            "type" : "inputRemoved"
+          },
+          {
+            "action" : "removeVal",
+            "inputId" : "useIntraday",
+            "type" : "inputRemoved"
+          }
+        ],
+        "studyId" : "OHLCV@tv-basicstudies"
+      }
+    ],
+    "versFrom" : "268",
+    "versTo" : "269"
+  }
+]
