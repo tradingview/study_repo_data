@@ -1,0 +1,22 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mult",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "useIntraday",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "OHLCV@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "262",
+  "versTo" : "263"
+}
