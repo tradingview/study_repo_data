@@ -1,0 +1,456 @@
+[
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "config" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "AssetIndex@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "config" : "",
+        "config_compressed" : "",
+        "start_time" : 0
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "IndexVolume@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "config_compressed",
+        "name" : "Config_compressed",
+        "type" : "text"
+      },
+      {
+        "defval" : 0,
+        "id" : "start_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Start_time",
+        "type" : "time"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "config" : "",
+        "config_compressed" : "",
+        "start_time" : 0
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "MarketCapWeightedIndex@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "config_compressed",
+        "name" : "Config_compressed",
+        "type" : "text"
+      },
+      {
+        "defval" : 0,
+        "id" : "start_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Start_time",
+        "type" : "time"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "config" : "{}"
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "OIAggregator@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "{}",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "config" : "{}"
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "OIConverter@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "{}",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "components" : "",
+        "historySymbol" : "",
+        "mode" : "default",
+        "multiplier" : 1.0
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "PriceWeightedIndex@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : 1.0,
+        "id" : "multiplier",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Multiplier",
+        "type" : "float"
+      },
+      {
+        "defval" : "",
+        "id" : "components",
+        "name" : "Components",
+        "type" : "text"
+      },
+      {
+        "defval" : "default",
+        "id" : "mode",
+        "name" : "Mode",
+        "options" : [
+          "default",
+          "realtime",
+          "history"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "historySymbol",
+        "name" : "HistorySymbol",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "config" : "",
+        "config_compressed" : "",
+        "main_symbol" : "BITFINEX:BTCUSD",
+        "start_time" : 0
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "TotalCryptoCap@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "config",
+        "name" : "Config",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "config_compressed",
+        "name" : "Config_compressed",
+        "type" : "text"
+      },
+      {
+        "defval" : "BITFINEX:BTCUSD",
+        "id" : "main_symbol",
+        "name" : "Main_symbol",
+        "type" : "text"
+      },
+      {
+        "defval" : 0,
+        "id" : "start_time",
+        "isHidden" : true,
+        "max" : 253370764800,
+        "min" : -253370764800,
+        "name" : "Start_time",
+        "type" : "time"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "ticker" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "TotalCryptoCapMerger@tv-indices-45",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "ticker",
+        "name" : "Ticker",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  }
+]
