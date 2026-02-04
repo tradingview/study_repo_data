@@ -1,0 +1,330 @@
+[
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "backadjustment" : "default",
+        "currenttime" : "now",
+        "restrictions" : "",
+        "rollover" : "expiration",
+        "slimit" : "unlimited"
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "BarSetContinuous@tv-corestudies-39",
+    "inputs" : [
+      {
+        "defval" : "expiration",
+        "id" : "rollover",
+        "name" : "Rollover",
+        "type" : "text"
+      },
+      {
+        "defval" : "default",
+        "id" : "backadjustment",
+        "name" : "Backadjustment",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "restrictions",
+        "name" : "Restrictions",
+        "type" : "text"
+      },
+      {
+        "defval" : "now",
+        "id" : "currenttime",
+        "name" : "Currenttime",
+        "type" : "text"
+      },
+      {
+        "defval" : "unlimited",
+        "id" : "slimit",
+        "name" : "Slimit",
+        "type" : "slimit"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "currenttime" : "now"
+      }
+    },
+    "description" : "Dates calculator for continuous",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "BarSetContinuousRollDates@tv-corestudies-39",
+    "inputs" : [
+      {
+        "defval" : "now",
+        "id" : "currenttime",
+        "name" : "Currenttime",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "plots" : [
+      {
+        "id" : "CurrentContractCode",
+        "type" : "line"
+      },
+      {
+        "id" : "NextContractCode",
+        "type" : "line"
+      },
+      {
+        "id" : "SwitchDate",
+        "type" : "line"
+      },
+      {
+        "id" : "CurrentContractCode2",
+        "type" : "line"
+      },
+      {
+        "id" : "NextContractCode2",
+        "type" : "line"
+      },
+      {
+        "id" : "SwitchDate2",
+        "type" : "line"
+      },
+      {
+        "id" : "CurrentContractCode3",
+        "type" : "line"
+      },
+      {
+        "id" : "NextContractCode3",
+        "type" : "line"
+      },
+      {
+        "id" : "SwitchDate3",
+        "type" : "line"
+      },
+      {
+        "id" : "CurrentContractCode4",
+        "type" : "line"
+      },
+      {
+        "id" : "NextContractCode4",
+        "type" : "line"
+      },
+      {
+        "id" : "SwitchDate4",
+        "type" : "line"
+      },
+      {
+        "id" : "Overflowed",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "RollDatesCalculator"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "backadjustment" : "",
+        "currenttime" : "now",
+        "expchain" : "",
+        "norecalc" : false,
+        "rtmaxseries" : "3",
+        "type" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "BarSetRollover@tv-corestudies-39",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "expchain",
+        "name" : "Expchain",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "backadjustment",
+        "name" : "Backadjustment",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "type",
+        "name" : "Type",
+        "type" : "text"
+      },
+      {
+        "defval" : "now",
+        "id" : "currenttime",
+        "name" : "Currenttime",
+        "type" : "text"
+      },
+      {
+        "defval" : "3",
+        "id" : "rtmaxseries",
+        "name" : "Rtmaxseries",
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "norecalc",
+        "name" : "Norecalc",
+        "type" : "bool"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "BarSetSettlementAsClose@tv-corestudies-39",
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 51,
+    "defaults" : {
+      "inputs" : {
+        "mult" : -1,
+        "symbol" : "",
+        "useIntraday" : false
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "OHLCV@tv-corestudies-39",
+    "inputs" : [
+      {
+        "defval" : -1,
+        "id" : "mult",
+        "max" : 2147483647,
+        "min" : -1,
+        "name" : "Mult",
+        "type" : "integer"
+      },
+      {
+        "defval" : false,
+        "id" : "useIntraday",
+        "name" : "UseIntraday",
+        "type" : "bool"
+      },
+      {
+        "defval" : "",
+        "id" : "symbol",
+        "name" : "Symbol",
+        "type" : "symbol"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  }
+]
