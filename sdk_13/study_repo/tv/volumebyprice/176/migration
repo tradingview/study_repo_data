@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "showUnfinishedAuction",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Footprint@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "175",
+  "versTo" : "176"
+}
