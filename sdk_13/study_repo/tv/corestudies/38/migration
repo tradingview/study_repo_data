@@ -1,0 +1,22 @@
+{
+  "pkgName" : "tv-corestudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mainSymbol",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "secSymbol",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "BarSetMergedSymbol@tv-corestudies"
+    }
+  ],
+  "versFrom" : "37",
+  "versTo" : "38"
+}
