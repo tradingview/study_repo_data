@@ -1,0 +1,962 @@
+[
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "graphics" : {
+        "dwglabels" : {
+          "labels" : {
+            "visible" : true
+          }
+        },
+        "dwglines" : {
+          "lines" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "__fast_calc" : false,
+        "in_0" : true,
+        "in_10" : true,
+        "in_11" : false,
+        "in_12" : false,
+        "in_14" : false,
+        "in_15" : false,
+        "in_16" : false,
+        "in_17" : false,
+        "in_18" : false,
+        "in_2" : true,
+        "in_20" : false,
+        "in_21" : false,
+        "in_22" : false,
+        "in_23" : false,
+        "in_24" : false,
+        "in_26" : false,
+        "in_27" : false,
+        "in_28" : false,
+        "in_29" : false,
+        "in_3" : true,
+        "in_30" : false,
+        "in_32" : false,
+        "in_33" : false,
+        "in_34" : false,
+        "in_35" : false,
+        "in_36" : false,
+        "in_38" : false,
+        "in_39" : false,
+        "in_4" : true,
+        "in_40" : false,
+        "in_41" : false,
+        "in_42" : "Custom",
+        "in_43" : 1.0,
+        "in_44" : "Day",
+        "in_45" : "Period start",
+        "in_5" : false,
+        "in_6" : true,
+        "in_8" : true,
+        "in_9" : true
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "dwglabels" : {
+        "labels" : {
+          "name" : "labels",
+          "title" : "labels"
+        }
+      },
+      "dwglines" : {
+        "lines" : {
+          "name" : "lines",
+          "title" : "lines"
+        }
+      }
+    },
+    "id" : "AutoKeyLevels@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : false,
+        "id" : "in_28",
+        "name" : "In_28",
+        "type" : "bool"
+      },
+      {
+        "defval" : "Period start",
+        "id" : "in_45",
+        "name" : "In_45",
+        "type" : "text"
+      },
+      {
+        "defval" : true,
+        "id" : "in_4",
+        "name" : "In_4",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_30",
+        "name" : "In_30",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_29",
+        "name" : "In_29",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_6",
+        "name" : "In_6",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_33",
+        "name" : "In_33",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_5",
+        "name" : "In_5",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_32",
+        "name" : "In_32",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_9",
+        "name" : "In_9",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_35",
+        "name" : "In_35",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_8",
+        "name" : "In_8",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_34",
+        "name" : "In_34",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_11",
+        "name" : "In_11",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_38",
+        "name" : "In_38",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_10",
+        "name" : "In_10",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_36",
+        "name" : "In_36",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_14",
+        "name" : "In_14",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_12",
+        "name" : "In_12",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_39",
+        "name" : "In_39",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_15",
+        "name" : "In_15",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_41",
+        "name" : "In_41",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_40",
+        "name" : "In_40",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_17",
+        "name" : "In_17",
+        "type" : "bool"
+      },
+      {
+        "defval" : 1.0,
+        "id" : "in_43",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "In_43",
+        "type" : "float"
+      },
+      {
+        "defval" : false,
+        "id" : "in_16",
+        "name" : "In_16",
+        "type" : "bool"
+      },
+      {
+        "defval" : "Custom",
+        "id" : "in_42",
+        "name" : "In_42",
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "in_20",
+        "name" : "In_20",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_18",
+        "name" : "In_18",
+        "type" : "bool"
+      },
+      {
+        "defval" : "Day",
+        "id" : "in_44",
+        "name" : "In_44",
+        "type" : "text"
+      },
+      {
+        "defval" : false,
+        "id" : "in_22",
+        "name" : "In_22",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_21",
+        "name" : "In_21",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "__fast_calc",
+        "name" : "__fast_calc",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_24",
+        "name" : "In_24",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_23",
+        "name" : "In_23",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_0",
+        "name" : "In_0",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_27",
+        "name" : "In_27",
+        "type" : "bool"
+      },
+      {
+        "defval" : false,
+        "id" : "in_26",
+        "name" : "In_26",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_3",
+        "name" : "In_3",
+        "type" : "bool"
+      },
+      {
+        "defval" : true,
+        "id" : "in_2",
+        "name" : "In_2",
+        "type" : "bool"
+      }
+    ],
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "plot_0",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_1",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_2",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_3",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_4",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_5",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_6",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_7",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_8",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_9",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_10",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_11",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_12",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_13",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_14",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_15",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_16",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_17",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_18",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_19",
+        "type" : "line"
+      },
+      {
+        "id" : "plot_20",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "ESD@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Internal@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "autoAdjustSplits" : true,
+        "cash_transactions" : "",
+        "cash_transactions_zip" : "",
+        "currency" : "USD",
+        "dividend_transactions" : "",
+        "dividend_transactions_zip" : "",
+        "initial_capital" : 0.0,
+        "portfolioId" : "",
+        "risk_free_rate" : 2.0,
+        "text" : "",
+        "trade_transactions" : "",
+        "trade_transactions_zip" : "",
+        "transactions" : "",
+        "transactions_zip" : ""
+      },
+      "styles" : {
+        "benchmark_performance" : {
+          "color" : "#1e88e5",
+          "display" : 4294967295,
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_free_cash" : {
+          "color" : "#000000",
+          "display" : 4294967295,
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_performance" : {
+          "color" : "#1e88e5",
+          "display" : 4294967295,
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_profit" : {
+          "color" : "#1e88e5",
+          "display" : 4294967295,
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_realized_profit" : {
+          "color" : "#000000",
+          "display" : 4294967295,
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        },
+        "portfolio_value" : {
+          "color" : "#1e88e5",
+          "display" : 4294967295,
+          "linestyle" : 0,
+          "linewidth" : 1,
+          "plottype" : 0,
+          "trackPrice" : false,
+          "transparency" : 0,
+          "visible" : true
+        }
+      }
+    },
+    "description" : "Portfolio",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Portfolio@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : "USD",
+        "id" : "currency",
+        "name" : "Base Currency",
+        "tooltip" : "Currency used in calculations and strategy results",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "transactions",
+        "isHidden" : true,
+        "name" : "Transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "transactions_zip",
+        "isHidden" : true,
+        "name" : "Transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "trade_transactions",
+        "name" : "Trade_transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "trade_transactions_zip",
+        "name" : "Trade_transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "cash_transactions",
+        "name" : "Cash_transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "cash_transactions_zip",
+        "name" : "Cash_transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "dividend_transactions",
+        "name" : "Dividend_transactions",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "dividend_transactions_zip",
+        "name" : "Dividend_transactions_zip",
+        "type" : "text"
+      },
+      {
+        "defval" : 0.0,
+        "id" : "initial_capital",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Initial_capital",
+        "type" : "float"
+      },
+      {
+        "defval" : 2.0,
+        "id" : "risk_free_rate",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "Risk_free_rate",
+        "type" : "float"
+      },
+      {
+        "defval" : "",
+        "id" : "portfolioId",
+        "isHidden" : true,
+        "name" : "PortfolioId",
+        "type" : "text"
+      },
+      {
+        "defval" : true,
+        "id" : "autoAdjustSplits",
+        "isHidden" : true,
+        "name" : "AutoAdjustSplits",
+        "type" : "bool"
+      },
+      {
+        "defval" : "",
+        "id" : "text",
+        "isHidden" : true,
+        "name" : "Text",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "portfolio_value",
+        "type" : "line"
+      },
+      {
+        "id" : "portfolio_performance",
+        "type" : "line"
+      },
+      {
+        "id" : "portfolio_profit",
+        "type" : "line"
+      },
+      {
+        "id" : "benchmark_performance",
+        "type" : "line"
+      },
+      {
+        "id" : "portfolio_free_cash",
+        "type" : "line"
+      },
+      {
+        "id" : "portfolio_realized_profit",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study",
+    "styles" : {
+      "benchmark_performance" : {
+        "histogramBase" : 0.0,
+        "title" : "Benchmark Performance"
+      },
+      "portfolio_free_cash" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Free Cash"
+      },
+      "portfolio_performance" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Performance"
+      },
+      "portfolio_profit" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Profit"
+      },
+      "portfolio_realized_profit" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Realized Profit"
+      },
+      "portfolio_value" : {
+        "histogramBase" : 0.0,
+        "title" : "Portfolio Value"
+      }
+    }
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "commission_type" : "percent",
+        "commission_value" : 0.0,
+        "currency" : "NONE",
+        "initial_capital" : 1000000.0,
+        "recoveryState" : "{}",
+        "text" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "ReplayStrategy@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : 1000000.0,
+        "group" : "strategy_props",
+        "id" : "initial_capital",
+        "max" : 1.7976931348623157E308,
+        "min" : 0.0,
+        "name" : "Initial Capital",
+        "tooltip" : "The amount of funds initially available for the strategy to trade",
+        "type" : "float"
+      },
+      {
+        "defval" : "NONE",
+        "group" : "strategy_props",
+        "id" : "currency",
+        "name" : "Base Currency",
+        "options" : [
+          "NONE",
+          "USD",
+          "EUR",
+          "AUD",
+          "GBP",
+          "NZD",
+          "CAD",
+          "CHF",
+          "HKD",
+          "JPY",
+          "NOK",
+          "RUB",
+          "SEK",
+          "SGD",
+          "TRY",
+          "ZAR",
+          "BTC",
+          "ETH",
+          "MYR",
+          "KRW",
+          "USDT",
+          "INR"
+        ],
+        "tooltip" : "Currency used in calculations and strategy results",
+        "type" : "text"
+      },
+      {
+        "defval" : "percent",
+        "group" : "strategy_props",
+        "id" : "commission_type",
+        "name" : "Commission Type",
+        "options" : [
+          "percent",
+          "cash_per_contract",
+          "cash_per_order"
+        ],
+        "tooltip" : "Fees paid for each entry and exit",
+        "type" : "text"
+      },
+      {
+        "defval" : 0.0,
+        "group" : "strategy_props",
+        "id" : "commission_value",
+        "max" : 1.7976931348623157E308,
+        "min" : 0.0,
+        "name" : "Commission Value",
+        "type" : "float"
+      },
+      {
+        "defval" : "{}",
+        "id" : "recoveryState",
+        "name" : "RecoveryState",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : true,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "Script@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "logToken" : "",
+        "pineId" : "",
+        "pineVersion" : "",
+        "text" : "",
+        "userProPlan" : ""
+      }
+    },
+    "description" : "Unnamed Study",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StrategyScript@tv-scripting-713",
+    "inputs" : [
+      {
+        "defval" : "",
+        "id" : "text",
+        "name" : "Text",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineId",
+        "name" : "PineId",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "pineVersion",
+        "name" : "PineVersion",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "logToken",
+        "name" : "LogToken",
+        "type" : "text"
+      },
+      {
+        "defval" : "",
+        "id" : "userProPlan",
+        "isHidden" : true,
+        "name" : "UserProPlan",
+        "type" : "usertype"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "shortDescription" : "Unnamed Study"
+  }
+]
