@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "maxExpirations",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "maxStrikes",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "groupBy",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "OptionsVolumeProfile@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "184",
+  "versTo" : "185"
+}
