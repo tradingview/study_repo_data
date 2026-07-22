@@ -1,0 +1,127 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "All",
+          "inputId" : "profilesSessions",
+          "inputType" : "text",
+          "options" : [
+            "All",
+            "Each (pre-market, market, post-market)",
+            "Pre-market only",
+            "Market only",
+            "Post-market only",
+            "Custom"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "TPOSessions@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "All",
+          "inputId" : "profilesSessions",
+          "inputType" : "text",
+          "options" : [
+            "All",
+            "Each (pre-market, market, post-market)",
+            "Pre-market only",
+            "Market only",
+            "Post-market only",
+            "Custom"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "VbPSessions@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "All",
+          "inputId" : "profilesSessions",
+          "inputType" : "text",
+          "options" : [
+            "All",
+            "Each (pre-market, market, post-market)",
+            "Pre-market only",
+            "Market only",
+            "Post-market only",
+            "Custom"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "VbPSessionsDetailed@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "All",
+          "inputId" : "profilesSessions",
+          "inputType" : "text",
+          "options" : [
+            "All",
+            "Each (pre-market, market, post-market)",
+            "Pre-market only",
+            "Market only",
+            "Post-market only",
+            "Custom"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "VbPSessionsDetailedAlerts@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "All",
+          "inputId" : "profilesSessions",
+          "inputType" : "text",
+          "options" : [
+            "All",
+            "Each (pre-market, market, post-market)",
+            "Pre-market only",
+            "Market only",
+            "Post-market only",
+            "Custom"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "VbPSessionsRough@tv-volumebyprice"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "resetToDefValIfNeeded",
+          "defVal" : "All",
+          "inputId" : "profilesSessions",
+          "inputType" : "text",
+          "options" : [
+            "All",
+            "Each (pre-market, market, post-market)",
+            "Pre-market only",
+            "Market only",
+            "Post-market only",
+            "Custom"
+          ],
+          "type" : "inputChangedOptions"
+        }
+      ],
+      "studyId" : "VbPSessionsRoughDetailed@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "185",
+  "versTo" : "186"
+}
