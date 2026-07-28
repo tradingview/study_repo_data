@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-scripting",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "__fast_calc",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "__Test@tv-scripting"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "__fast_calc",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "__Test@tv-scripting"
+    }
+  ],
+  "versFrom" : "737",
+  "versTo" : "738"
+}
