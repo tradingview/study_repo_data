@@ -1,0 +1,299 @@
+[
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "calcZeroRate" : false,
+        "discountPeriod" : 1.0
+      }
+    },
+    "description" : "StudyBondCurve",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StudyBondCurve@tv-bondstudies-1",
+    "inputs" : [
+      {
+        "defval" : 1.0,
+        "id" : "discountPeriod",
+        "max" : 1.7976931348623157E308,
+        "min" : -1.7976931348623157E308,
+        "name" : "DiscountPeriod",
+        "type" : "float"
+      },
+      {
+        "defval" : false,
+        "id" : "calcZeroRate",
+        "name" : "CalcZeroRate",
+        "type" : "bool"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "metric" : "Macaulay Duration",
+        "yield_type" : "YTM"
+      }
+    },
+    "description" : "StudyBondRisks",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StudyBondRisks@tv-bondstudies-1",
+    "inputs" : [
+      {
+        "defval" : "YTM",
+        "id" : "yield_type",
+        "name" : "Yield Type",
+        "options" : [
+          "YTM",
+          "YTC",
+          "YTP",
+          "YTW"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "Macaulay Duration",
+        "id" : "metric",
+        "name" : "Risk Metric",
+        "options" : [
+          "Macaulay Duration",
+          "Modified Duration",
+          "Price Convexity",
+          "DV01"
+        ],
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "StudyBondRisks"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "countBack" : 30,
+        "interpolation" : "MC"
+      }
+    },
+    "description" : "StudyBondScreenerMetrics",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StudyBondScreenerMetrics@tv-bondstudies-1",
+    "inputs" : [
+      {
+        "defval" : "MC",
+        "id" : "interpolation",
+        "name" : "Interpolation",
+        "options" : [
+          "LL",
+          "CS",
+          "MC"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : 30,
+        "id" : "countBack",
+        "max" : 2147483647,
+        "min" : -2147483648,
+        "name" : "Calc bars count",
+        "type" : "integer"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "ytm",
+        "type" : "line"
+      },
+      {
+        "id" : "ytc",
+        "type" : "line"
+      },
+      {
+        "id" : "ytp",
+        "type" : "line"
+      },
+      {
+        "id" : "ytw",
+        "type" : "line"
+      },
+      {
+        "id" : "ytm_to_bid",
+        "type" : "line"
+      },
+      {
+        "id" : "ytm_to_ask",
+        "type" : "line"
+      },
+      {
+        "id" : "ytw_to_bid",
+        "type" : "line"
+      },
+      {
+        "id" : "ytw_to_ask",
+        "type" : "line"
+      },
+      {
+        "id" : "macaulay_duration",
+        "type" : "line"
+      },
+      {
+        "id" : "modified_duration",
+        "type" : "line"
+      },
+      {
+        "id" : "convexity",
+        "type" : "line"
+      },
+      {
+        "id" : "dv_01",
+        "type" : "line"
+      },
+      {
+        "id" : "g_spread",
+        "type" : "line"
+      },
+      {
+        "id" : "z_spread",
+        "type" : "line"
+      },
+      {
+        "id" : "f_spread",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "Unnamed Study"
+  },
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "inputs" : {
+        "interpolation" : "AUTO",
+        "spread_type" : "G-Spread",
+        "yield_type" : "YTM"
+      }
+    },
+    "description" : "StudyBondSpreads",
+    "format" : {
+      "type" : "inherit"
+    },
+    "id" : "StudyBondSpreads@tv-bondstudies-1",
+    "inputs" : [
+      {
+        "defval" : "YTM",
+        "id" : "yield_type",
+        "name" : "Yield Type",
+        "options" : [
+          "YTM",
+          "YTC",
+          "YTP",
+          "YTW"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "G-Spread",
+        "id" : "spread_type",
+        "name" : "Spread Type",
+        "options" : [
+          "G-Spread",
+          "Z-Spread",
+          "F-Spread"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "AUTO",
+        "id" : "interpolation",
+        "name" : "Interpolation",
+        "options" : [
+          "AUTO",
+          "LL",
+          "CS",
+          "MC"
+        ],
+        "type" : "text"
+      }
+    ],
+    "is_hidden_study" : true,
+    "is_price_study" : false,
+    "plots" : [
+      {
+        "id" : "open",
+        "type" : "line"
+      },
+      {
+        "id" : "high",
+        "type" : "line"
+      },
+      {
+        "id" : "low",
+        "type" : "line"
+      },
+      {
+        "id" : "close",
+        "type" : "line"
+      },
+      {
+        "id" : "volume",
+        "type" : "line"
+      }
+    ],
+    "shortDescription" : "StudyBondSpreads"
+  }
+]
