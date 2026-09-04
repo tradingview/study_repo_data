@@ -1,0 +1,68 @@
+[
+  {
+    "_metainfoVersion" : 54,
+    "defaults" : {
+      "graphics" : {
+        "ovp" : {
+          "ovp" : {
+            "ovp" : ""
+          }
+        }
+      },
+      "inputs" : {
+        "groupBy" : "None",
+        "maxExpirations" : 10,
+        "maxStrikes" : 10
+      }
+    },
+    "description" : "Options Volume Profile",
+    "extra" : {
+      "isBeta" : true,
+      "isNew" : true,
+      "isPro" : false,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "ovp" : {
+        "ovp" : {
+          "ovp" : ""
+        }
+      }
+    },
+    "id" : "OptionsVolumeProfile@tv-optionstudies-4",
+    "inputs" : [
+      {
+        "defval" : 10,
+        "id" : "maxExpirations",
+        "max" : 100,
+        "min" : 1,
+        "name" : "Max expirations",
+        "type" : "integer"
+      },
+      {
+        "defval" : 10,
+        "id" : "maxStrikes",
+        "max" : 1000,
+        "min" : 1,
+        "name" : "+-Strikes around current price",
+        "type" : "integer"
+      },
+      {
+        "defval" : "None",
+        "id" : "groupBy",
+        "name" : "Group by",
+        "options" : [
+          "None",
+          "Week",
+          "Month"
+        ],
+        "type" : "text"
+      }
+    ],
+    "is_price_study" : true,
+    "shortDescription" : "OVP"
+  }
+]
