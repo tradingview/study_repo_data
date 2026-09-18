@@ -1,0 +1,47 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "currenttime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Dividends@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "currenttime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Earnings@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "currenttime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "Splits@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "price",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "StudyBondYield@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "278",
+  "versTo" : "279"
+}
