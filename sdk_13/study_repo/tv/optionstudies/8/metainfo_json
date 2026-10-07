@@ -1,0 +1,147 @@
+[
+  {
+    "_metainfoVersion" : 55,
+    "defaults" : {
+      "graphics" : {
+        "em" : {
+          "em" : {
+            "visible" : true
+          }
+        }
+      },
+      "inputs" : {
+        "horizon" : "1 month",
+        "mode" : "Listed expirations",
+        "stdDev" : "1"
+      }
+    },
+    "description" : "Options Expected Move",
+    "extra" : {
+      "isBeta" : true,
+      "isNew" : true,
+      "isPro" : false,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "inherit"
+    },
+    "graphics" : {
+      "em" : {
+        "em" : {
+          "name" : "em",
+          "title" : "Options Expected Move"
+        }
+      }
+    },
+    "id" : "OptionsExpectedMove@tv-optionstudies-8",
+    "inputs" : [
+      {
+        "defval" : "Listed expirations",
+        "id" : "mode",
+        "name" : "Mode",
+        "options" : [
+          "Listed expirations",
+          "Fixed terms"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "1 month",
+        "id" : "horizon",
+        "name" : "Horizon",
+        "options" : [
+          "Nearest",
+          "1 week",
+          "2 weeks",
+          "1 month",
+          "2 months",
+          "3 months",
+          "6 months",
+          "9 months",
+          "1 year",
+          "All"
+        ],
+        "type" : "text"
+      },
+      {
+        "defval" : "1",
+        "id" : "stdDev",
+        "name" : "Std Dev",
+        "options" : [
+          "1",
+          "2",
+          "3"
+        ],
+        "type" : "text"
+      }
+    ],
+    "is_price_study" : true,
+    "shortDescription" : "EM"
+  },
+  {
+    "_metainfoVersion" : 55,
+    "defaults" : {
+      "graphics" : {
+        "ovp" : {
+          "ovp" : {
+            "ovp" : ""
+          }
+        }
+      },
+      "inputs" : {
+        "groupBy" : "None",
+        "maxExpirations" : 10,
+        "maxStrikes" : 10
+      }
+    },
+    "description" : "Options volume profile",
+    "extra" : {
+      "isBeta" : true,
+      "isNew" : true,
+      "isPro" : false,
+      "isUpdated" : false
+    },
+    "format" : {
+      "type" : "volume"
+    },
+    "graphics" : {
+      "ovp" : {
+        "ovp" : {
+          "ovp" : ""
+        }
+      }
+    },
+    "id" : "OptionsVolumeProfile@tv-optionstudies-8",
+    "inputs" : [
+      {
+        "defval" : 10,
+        "id" : "maxExpirations",
+        "max" : 100,
+        "min" : 1,
+        "name" : "Max expirations",
+        "type" : "integer"
+      },
+      {
+        "defval" : 10,
+        "id" : "maxStrikes",
+        "max" : 1000,
+        "min" : 1,
+        "name" : "+-Strikes around current price",
+        "type" : "integer"
+      },
+      {
+        "defval" : "None",
+        "id" : "groupBy",
+        "name" : "Group by",
+        "options" : [
+          "None",
+          "Week",
+          "Month"
+        ],
+        "type" : "text"
+      }
+    ],
+    "is_price_study" : true,
+    "shortDescription" : "OVP"
+  }
+]
