@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-optionstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "mode",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "horizon",
+          "type" : "inputRemoved"
+        },
+        {
+          "action" : "removeVal",
+          "inputId" : "stdDev",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "OptionsExpectedMove@tv-optionstudies"
+    }
+  ],
+  "versFrom" : "8",
+  "versTo" : "9"
+}
