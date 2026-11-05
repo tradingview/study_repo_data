@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "currenttime",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "CurrencyConverter@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "295",
+  "versTo" : "296"
+}
