@@ -1,0 +1,17 @@
+{
+  "pkgName" : "tv-volumebyprice",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "groupTrades",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "TimeAndSales@tv-volumebyprice"
+    }
+  ],
+  "versFrom" : "197",
+  "versTo" : "198"
+}
